@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.ea42eb78.js",
+    "main.js": "/website/static/js/main.a197d469.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
     "static/media/venue-large.png": "/website/static/media/venue-large.1bff039277f2ccec2bd2.png",
     "static/media/venue.png": "/website/static/media/venue.a11763cac91d70274761.png",
@@ -40,9 +40,9 @@
     "static/media/belo.svg": "/website/static/media/belo.7cc615bea6852b2a5cce376d5fda7c8a.svg",
     "static/media/date11.svg": "/website/static/media/date11.4e786947c2877aa96d3de2d8d797c515.svg",
     "static/media/ethereumFoundation.svg": "/website/static/media/ethereumFoundation.bc7b239a93a43fe03c16f46dfeb73086.svg",
+    "static/media/ETHGlobal.svg": "/website/static/media/ETHGlobal.d848b684c2605121d2b2082154a9aef1.svg",
     "static/media/decentraland.svg": "/website/static/media/decentraland.7e7018a10a60238628ab7c5076821bb2.svg",
     "static/media/Argent.svg": "/website/static/media/Argent.5b3d1fa1466f147992c4d5aa691cca72.svg",
-    "static/media/ETHGlobal.svg": "/website/static/media/ETHGlobal.09bf5bbdb924c85060c9e27546424165.svg",
     "static/media/lens.svg": "/website/static/media/lens.cf053a4e544bf5a86646bf3b9426c06c.svg",
     "static/media/exactly.svg": "/website/static/media/exactly.65d88fd08e39c318f962100262db6918.svg",
     "static/media/TheGraph.svg": "/website/static/media/TheGraph.c06d45c30d1d90be10b06ddca8cdb7a4.svg",
@@ -67,11 +67,11 @@
     "static/media/elipse.svg": "/website/static/media/elipse.8cce15fc34db636328344e5815976be7.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.ea42eb78.js.map": "/website/static/js/main.ea42eb78.js.map",
+    "main.a197d469.js.map": "/website/static/js/main.a197d469.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.ea42eb78.js"
+    "static/js/main.a197d469.js"
   ]
 }
