@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.c3cf95cc.js",
+    "main.js": "/website/static/js/main.5993b57a.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
     "static/media/venue-large.png": "/website/static/media/venue-large.1bff039277f2ccec2bd2.png",
     "static/media/venue.png": "/website/static/media/venue.a11763cac91d70274761.png",
@@ -26,6 +26,7 @@
     "static/media/HelveticaNeueLTStd-Roman.otf": "/website/static/media/HelveticaNeueLTStd-Roman.ff5fbbdc11069cb6eec5.otf",
     "static/media/camila.jpeg": "/website/static/media/camila.e88dd77b18cef8af828e.jpeg",
     "static/media/HelveticaNeueLTStd-Bold.otf": "/website/static/media/HelveticaNeueLTStd-Bold.14a13a5415b0d3b6ca0b.otf",
+    "static/media/fernanda.jpeg": "/website/static/media/fernanda.221f439084a174ce2b5f.jpeg",
     "static/media/gabriel.jpeg": "/website/static/media/gabriel.485472043f5f8d5d19ae.jpeg",
     "static/media/brz.svg": "/website/static/media/brz.40bf859932c0365953cd477604754b50.svg",
     "static/media/buenosAiresCiudad.svg": "/website/static/media/buenosAiresCiudad.1d5afb5dbaff7ee3ffacb0d08d16d09b.svg",
@@ -42,10 +43,13 @@
     "static/media/ethereumFoundation.svg": "/website/static/media/ethereumFoundation.bc7b239a93a43fe03c16f46dfeb73086.svg",
     "static/media/ETHGlobal.svg": "/website/static/media/ETHGlobal.d848b684c2605121d2b2082154a9aef1.svg",
     "static/media/decentraland.svg": "/website/static/media/decentraland.7e7018a10a60238628ab7c5076821bb2.svg",
+    "static/media/defiant.svg": "/website/static/media/defiant.452827ef86b3f824f8a8576ff198c86a.svg",
     "static/media/Argent.svg": "/website/static/media/Argent.5b3d1fa1466f147992c4d5aa691cca72.svg",
+    "static/media/rekt.svg": "/website/static/media/rekt.860255be5a124849db7f919f5951bfb0.svg",
     "static/media/lens.svg": "/website/static/media/lens.cf053a4e544bf5a86646bf3b9426c06c.svg",
     "static/media/exactly.svg": "/website/static/media/exactly.65d88fd08e39c318f962100262db6918.svg",
     "static/media/TheGraph.svg": "/website/static/media/TheGraph.c06d45c30d1d90be10b06ddca8cdb7a4.svg",
+    "static/media/auth0.svg": "/website/static/media/auth0.f97812a5659594fce58717c7ed6a936c.svg",
     "static/media/Maker.svg": "/website/static/media/Maker.0ecc3a0ba6cea24fae1c28f6dd121818.svg",
     "index.html": "/website/index.html",
     "static/media/navbar-logo.svg": "/website/static/media/navbar-logo.c8cccdd6248544d7850a1bbcfd8d1e5c.svg",
@@ -67,11 +71,11 @@
     "static/media/elipse.svg": "/website/static/media/elipse.8cce15fc34db636328344e5815976be7.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.c3cf95cc.js.map": "/website/static/js/main.c3cf95cc.js.map",
+    "main.5993b57a.js.map": "/website/static/js/main.5993b57a.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.c3cf95cc.js"
+    "static/js/main.5993b57a.js"
   ]
 }
