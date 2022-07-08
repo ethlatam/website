@@ -1,9 +1,14 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.ba000360.js",
+    "main.js": "/website/static/js/main.1c8dcd7a.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
+    "static/media/skeletor.jpeg": "/website/static/media/skeletor.9a2a58fdcc83765bc568.jpeg",
+    "static/media/nahuel.JPG": "/website/static/media/nahuel.93781a49c343c1f7e9fd.JPG",
     "static/media/epns.svg": "/website/static/media/epns.3657ce74f4ef54d62638a19903544cee.svg",
+    "static/media/rodrigo.jpg": "/website/static/media/rodrigo.53553956b2a90872aca2.jpg",
+    "static/media/patricioW.jpeg": "/website/static/media/patricioW.473a8bcc36a3c1393b81.jpeg",
+    "static/media/manuel.jpg": "/website/static/media/manuel.607639b00bf7504b5d82.jpg",
     "static/media/venue-large.png": "/website/static/media/venue-large.1bff039277f2ccec2bd2.png",
     "static/media/venue.png": "/website/static/media/venue.a11763cac91d70274761.png",
     "static/media/carousel.png": "/website/static/media/carousel.c5d1ec0a9720779fc162.png",
@@ -13,6 +18,8 @@
     "static/media/alan.jpg": "/website/static/media/alan.88af76aec80ed588c885.jpg",
     "static/media/ThinkandDev.png": "/website/static/media/ThinkandDev.ae9ddd9bcf422bca246e.png",
     "static/media/damian.png": "/website/static/media/damian.0d7a508189eb82e59793.png",
+    "static/media/rahul.jpg": "/website/static/media/rahul.e36b731dfc51edee0f3f.jpg",
+    "static/media/aya.jpeg": "/website/static/media/aya.326af660db292e268303.jpeg",
     "static/media/nadia.jpeg": "/website/static/media/nadia.67b6c74be6157dec21c6.jpeg",
     "static/media/venue-small.png": "/website/static/media/venue-small.bb1742136b8d56d0755b.png",
     "static/media/Wonderland.png": "/website/static/media/Wonderland.1c2bee7571b74b862fd2.png",
@@ -79,11 +86,11 @@
     "static/media/elipse.svg": "/website/static/media/elipse.8cce15fc34db636328344e5815976be7.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.ba000360.js.map": "/website/static/js/main.ba000360.js.map",
+    "main.1c8dcd7a.js.map": "/website/static/js/main.1c8dcd7a.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.ba000360.js"
+    "static/js/main.1c8dcd7a.js"
   ]
 }
