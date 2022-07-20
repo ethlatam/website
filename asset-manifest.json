@@ -1,10 +1,13 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.f804a693.js",
+    "main.js": "/website/static/js/main.9c801b56.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
+    "static/media/felipe.png": "/website/static/media/felipe.87dd953e1ee50f544576.png",
     "static/media/skeletor.jpeg": "/website/static/media/skeletor.9a2a58fdcc83765bc568.jpeg",
     "static/media/nahuel.JPG": "/website/static/media/nahuel.93781a49c343c1f7e9fd.JPG",
+    "static/media/harsh.jpeg": "/website/static/media/harsh.6c98f5a4776960a13bbb.jpeg",
+    "static/media/matiasN.jpg": "/website/static/media/matiasN.f6aa06c29ca6ffc6aa52.jpg",
     "static/media/epns.svg": "/website/static/media/epns.3657ce74f4ef54d62638a19903544cee.svg",
     "static/media/rodrigo.jpg": "/website/static/media/rodrigo.53553956b2a90872aca2.jpg",
     "static/media/manuel.jpg": "/website/static/media/manuel.607639b00bf7504b5d82.jpg",
@@ -18,6 +21,8 @@
     "static/media/siesta.png": "/website/static/media/siesta.083ad3da3896ad7bc64e.png",
     "static/media/ThinkandDev.png": "/website/static/media/ThinkandDev.dcd7c9e413c1488025cb.png",
     "static/media/alan.jpg": "/website/static/media/alan.88af76aec80ed588c885.jpg",
+    "static/media/antonela.png": "/website/static/media/antonela.54d588cd656735b80d46.png",
+    "static/media/oli.jpeg": "/website/static/media/oli.46e5f73a667249a6a75e.jpeg",
     "static/media/damian.png": "/website/static/media/damian.0d7a508189eb82e59793.png",
     "static/media/rahul.jpg": "/website/static/media/rahul.e36b731dfc51edee0f3f.jpg",
     "static/media/aya.jpeg": "/website/static/media/aya.326af660db292e268303.jpeg",
@@ -43,15 +48,18 @@
     "static/media/HelveticaNeueLTStd-Bold.otf": "/website/static/media/HelveticaNeueLTStd-Bold.14a13a5415b0d3b6ca0b.otf",
     "static/media/fernanda.jpeg": "/website/static/media/fernanda.221f439084a174ce2b5f.jpeg",
     "static/media/brz.svg": "/website/static/media/brz.40bf859932c0365953cd477604754b50.svg",
+    "static/media/gino.jpeg": "/website/static/media/gino.7e8c2ea7d0d2e6e657a5.jpeg",
     "static/media/julien.jpeg": "/website/static/media/julien.0ad4aa0a5e1690306443.jpeg",
     "static/media/venue-small-background.png": "/website/static/media/venue-small-background.c27d6441bfd7d94ba7d3.png",
     "static/media/sebastian.jpeg": "/website/static/media/sebastian.9b16a20690df65777271.jpeg",
     "static/media/eeuu.svg": "/website/static/media/eeuu.72cb3b6a85377fba00635a33c43499e2.svg",
+    "static/media/vicky.jpeg": "/website/static/media/vicky.bccba602966c9b27eda1.jpeg",
     "static/media/arg.svg": "/website/static/media/arg.39e81ee4db2e3659cb47e87fb8fe7862.svg",
     "static/media/date22.svg": "/website/static/media/date22.a9a5b8c7fd5cece1dd6da7f786354391.svg",
     "static/media/NeuePixelGrotesk.ttf": "/website/static/media/NeuePixelGrotesk.6bd565ee1cdf58efcb36.ttf",
     "static/media/0xjean.jpeg": "/website/static/media/0xjean.92665cca706e5b40971b.jpeg",
     "static/media/belo.svg": "/website/static/media/belo.7cc615bea6852b2a5cce376d5fda7c8a.svg",
+    "static/media/adrian.jpeg": "/website/static/media/adrian.7b111015608086ca2c41.jpeg",
     "static/media/mariano.jpeg": "/website/static/media/mariano.7a7861f9b60e1b370dca.jpeg",
     "static/media/date11.svg": "/website/static/media/date11.4e786947c2877aa96d3de2d8d797c515.svg",
     "static/media/ethereumFoundation.svg": "/website/static/media/ethereumFoundation.bc7b239a93a43fe03c16f46dfeb73086.svg",
@@ -91,11 +99,11 @@
     "static/media/elipse.svg": "/website/static/media/elipse.8cce15fc34db636328344e5815976be7.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.f804a693.js.map": "/website/static/js/main.f804a693.js.map",
+    "main.9c801b56.js.map": "/website/static/js/main.9c801b56.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.f804a693.js"
+    "static/js/main.9c801b56.js"
   ]
 }
