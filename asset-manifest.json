@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.d9f3a1ac.js",
+    "main.js": "/website/static/js/main.f804a693.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
     "static/media/skeletor.jpeg": "/website/static/media/skeletor.9a2a58fdcc83765bc568.jpeg",
     "static/media/nahuel.JPG": "/website/static/media/nahuel.93781a49c343c1f7e9fd.JPG",
@@ -16,8 +16,8 @@
     "static/media/cryptoChica.png": "/website/static/media/cryptoChica.774538608538edd881d9.png",
     "static/media/matias.png": "/website/static/media/matias.4d203d4baf7bfda3bc89.png",
     "static/media/siesta.png": "/website/static/media/siesta.083ad3da3896ad7bc64e.png",
+    "static/media/ThinkandDev.png": "/website/static/media/ThinkandDev.dcd7c9e413c1488025cb.png",
     "static/media/alan.jpg": "/website/static/media/alan.88af76aec80ed588c885.jpg",
-    "static/media/ThinkandDev.png": "/website/static/media/ThinkandDev.ae9ddd9bcf422bca246e.png",
     "static/media/damian.png": "/website/static/media/damian.0d7a508189eb82e59793.png",
     "static/media/rahul.jpg": "/website/static/media/rahul.e36b731dfc51edee0f3f.jpg",
     "static/media/aya.jpeg": "/website/static/media/aya.326af660db292e268303.jpeg",
@@ -71,11 +71,13 @@
     "static/media/Maker.svg": "/website/static/media/Maker.0ecc3a0ba6cea24fae1c28f6dd121818.svg",
     "index.html": "/website/index.html",
     "static/media/navbar-logo.svg": "/website/static/media/navbar-logo.c8cccdd6248544d7850a1bbcfd8d1e5c.svg",
+    "static/media/bitso.svg": "/website/static/media/bitso.5431305dabc904eaa6202d557538a241.svg",
     "static/media/logo.svg": "/website/static/media/logo.29f61bf3be4b2f90ab45329be1cd9322.svg",
     "static/media/lemon.svg": "/website/static/media/lemon.a357ecd11d8ee5b488be81f71baf3433.svg",
     "static/media/venue-background.svg": "/website/static/media/venue-background.54bfa22b6878e649d943e2a4b46e816d.svg",
     "static/media/discord.svg": "/website/static/media/discord.9d63da6a88930463f09a666edb4c2dbe.svg",
     "static/media/wink.svg": "/website/static/media/wink.121482f7971d057116df4173a47e994c.svg",
+    "static/media/bankless.svg": "/website/static/media/bankless.53a417bcf45d94d4988e71c12e866ffd.svg",
     "static/media/ripio.svg": "/website/static/media/ripio.c3fae0ad773c757c2bd6f1f39bcc473a.svg",
     "static/media/twitter.svg": "/website/static/media/twitter.a493400df65f3bc9e728bcbe3ed07176.svg",
     "static/media/location.svg": "/website/static/media/location.316899433c779332ab5f287a0a9db5fa.svg",
@@ -89,11 +91,11 @@
     "static/media/elipse.svg": "/website/static/media/elipse.8cce15fc34db636328344e5815976be7.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.d9f3a1ac.js.map": "/website/static/js/main.d9f3a1ac.js.map",
+    "main.f804a693.js.map": "/website/static/js/main.f804a693.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.d9f3a1ac.js"
+    "static/js/main.f804a693.js"
   ]
 }
