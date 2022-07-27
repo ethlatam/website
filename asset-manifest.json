@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.9c801b56.js",
+    "main.js": "/website/static/js/main.fde00c09.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
     "static/media/felipe.png": "/website/static/media/felipe.87dd953e1ee50f544576.png",
     "static/media/skeletor.jpeg": "/website/static/media/skeletor.9a2a58fdcc83765bc568.jpeg",
@@ -11,6 +11,7 @@
     "static/media/epns.svg": "/website/static/media/epns.3657ce74f4ef54d62638a19903544cee.svg",
     "static/media/rodrigo.jpg": "/website/static/media/rodrigo.53553956b2a90872aca2.jpg",
     "static/media/manuel.jpg": "/website/static/media/manuel.607639b00bf7504b5d82.jpg",
+    "static/media/side.png": "/website/static/media/side.3564e4acca7e7d7291bd.png",
     "static/media/jose.jpg": "/website/static/media/jose.dae600c287c26a7eacbf.jpg",
     "static/media/venue-large.png": "/website/static/media/venue-large.1bff039277f2ccec2bd2.png",
     "static/media/venue.png": "/website/static/media/venue.a11763cac91d70274761.png",
@@ -19,6 +20,7 @@
     "static/media/cryptoChica.png": "/website/static/media/cryptoChica.774538608538edd881d9.png",
     "static/media/matias.png": "/website/static/media/matias.4d203d4baf7bfda3bc89.png",
     "static/media/siesta.png": "/website/static/media/siesta.083ad3da3896ad7bc64e.png",
+    "static/media/side-small.png": "/website/static/media/side-small.147c6b74bb68f097bd07.png",
     "static/media/ThinkandDev.png": "/website/static/media/ThinkandDev.dcd7c9e413c1488025cb.png",
     "static/media/alan.jpg": "/website/static/media/alan.88af76aec80ed588c885.jpg",
     "static/media/antonela.png": "/website/static/media/antonela.54d588cd656735b80d46.png",
@@ -68,15 +70,16 @@
     "static/media/ba.svg": "/website/static/media/ba.d9714a2dd91ddc987d0b4c277fa5e2fd.svg",
     "static/media/decentraland.svg": "/website/static/media/decentraland.7e7018a10a60238628ab7c5076821bb2.svg",
     "static/media/defiant.svg": "/website/static/media/defiant.452827ef86b3f824f8a8576ff198c86a.svg",
-    "static/media/Argent.svg": "/website/static/media/Argent.5b3d1fa1466f147992c4d5aa691cca72.svg",
     "static/media/rekt.svg": "/website/static/media/rekt.860255be5a124849db7f919f5951bfb0.svg",
     "static/media/lens.svg": "/website/static/media/lens.cf053a4e544bf5a86646bf3b9426c06c.svg",
     "static/media/OZ.svg": "/website/static/media/OZ.f5fea7687439f68b355c2e6470dd42b5.svg",
     "static/media/exactly.svg": "/website/static/media/exactly.65d88fd08e39c318f962100262db6918.svg",
+    "static/media/livepeer.svg": "/website/static/media/livepeer.89e6d1451dbc9e54a474f813e58bd9a7.svg",
     "static/media/metis.svg": "/website/static/media/metis.2ebe345a1eb8a1a6978eeafb7004dafe.svg",
     "static/media/TheGraph.svg": "/website/static/media/TheGraph.c06d45c30d1d90be10b06ddca8cdb7a4.svg",
     "static/media/auth0.svg": "/website/static/media/auth0.f97812a5659594fce58717c7ed6a936c.svg",
     "static/media/Maker.svg": "/website/static/media/Maker.0ecc3a0ba6cea24fae1c28f6dd121818.svg",
+    "static/media/worldcoin.svg": "/website/static/media/worldcoin.405f92e2a2cf4b584cbbd1691b6aedf0.svg",
     "index.html": "/website/index.html",
     "static/media/navbar-logo.svg": "/website/static/media/navbar-logo.c8cccdd6248544d7850a1bbcfd8d1e5c.svg",
     "static/media/bitso.svg": "/website/static/media/bitso.5431305dabc904eaa6202d557538a241.svg",
@@ -99,11 +102,11 @@
     "static/media/elipse.svg": "/website/static/media/elipse.8cce15fc34db636328344e5815976be7.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.9c801b56.js.map": "/website/static/js/main.9c801b56.js.map",
+    "main.fde00c09.js.map": "/website/static/js/main.fde00c09.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.9c801b56.js"
+    "static/js/main.fde00c09.js"
   ]
 }
