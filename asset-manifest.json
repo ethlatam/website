@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.98c54f0d.js",
+    "main.js": "/website/static/js/main.6e9ab5a8.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
     "static/media/skeletor.jpeg": "/website/static/media/skeletor.9a2a58fdcc83765bc568.jpeg",
     "static/media/nahuel.JPG": "/website/static/media/nahuel.93781a49c343c1f7e9fd.JPG",
@@ -59,6 +59,7 @@
     "static/media/venue-small-background.png": "/website/static/media/venue-small-background.c27d6441bfd7d94ba7d3.png",
     "static/media/sebastian.jpeg": "/website/static/media/sebastian.9b16a20690df65777271.jpeg",
     "static/media/eeuu.svg": "/website/static/media/eeuu.72cb3b6a85377fba00635a33c43499e2.svg",
+    "static/media/evan.jpeg": "/website/static/media/evan.b8700d916261a61fec41.jpeg",
     "static/media/vicky.jpeg": "/website/static/media/vicky.bccba602966c9b27eda1.jpeg",
     "static/media/sxysun.jpg": "/website/static/media/sxysun.8e2274145f6daa86493e.jpg",
     "static/media/arg.svg": "/website/static/media/arg.39e81ee4db2e3659cb47e87fb8fe7862.svg",
@@ -102,6 +103,7 @@
     "static/media/twitter.svg": "/website/static/media/twitter.a493400df65f3bc9e728bcbe3ed07176.svg",
     "static/media/location.svg": "/website/static/media/location.316899433c779332ab5f287a0a9db5fa.svg",
     "static/media/instagram.svg": "/website/static/media/instagram.a0189170fe6b057231f1f5136bad22d2.svg",
+    "static/media/Mask.svg": "/website/static/media/Mask.82af691888d718aacac263d62c2d8f09.svg",
     "static/media/arrow-down.svg": "/website/static/media/arrow-down.8fac81dc88a1f78511743bd6575ae59e.svg",
     "static/media/telegram.svg": "/website/static/media/telegram.0d7e5fb121d5dc4f2ee17e3d2e5176b8.svg",
     "static/media/speakers-line.svg": "/website/static/media/speakers-line.4ce9a8fa2184ff23ace7fb468f06f624.svg",
@@ -111,11 +113,11 @@
     "static/media/elipse.svg": "/website/static/media/elipse.8cce15fc34db636328344e5815976be7.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.98c54f0d.js.map": "/website/static/js/main.98c54f0d.js.map",
+    "main.6e9ab5a8.js.map": "/website/static/js/main.6e9ab5a8.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.98c54f0d.js"
+    "static/js/main.6e9ab5a8.js"
   ]
 }
