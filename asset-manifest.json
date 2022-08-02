@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.f69bd84b.js",
+    "main.js": "/website/static/js/main.739cfe90.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
     "static/media/skeletor.jpeg": "/website/static/media/skeletor.9a2a58fdcc83765bc568.jpeg",
     "static/media/nahuel.JPG": "/website/static/media/nahuel.93781a49c343c1f7e9fd.JPG",
@@ -113,11 +113,11 @@
     "static/media/elipse.svg": "/website/static/media/elipse.8cce15fc34db636328344e5815976be7.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.f69bd84b.js.map": "/website/static/js/main.f69bd84b.js.map",
+    "main.739cfe90.js.map": "/website/static/js/main.739cfe90.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.f69bd84b.js"
+    "static/js/main.739cfe90.js"
   ]
 }
