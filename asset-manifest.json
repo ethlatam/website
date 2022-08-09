@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.b3f11923.js",
+    "main.js": "/website/static/js/main.1a6a750d.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
     "static/media/nahuel.JPG": "/website/static/media/nahuel.b7aa6bec6eadd07a96ff.JPG",
     "static/media/nicolasM.jpeg": "/website/static/media/nicolasM.fd1a8145470cc2eec562.jpeg",
@@ -32,6 +32,7 @@
     "static/media/side-small.png": "/website/static/media/side-small.147c6b74bb68f097bd07.png",
     "static/media/whiteChocolate.png": "/website/static/media/whiteChocolate.5b87b9499d11cf1a9ff0.png",
     "static/media/ThinkandDev.png": "/website/static/media/ThinkandDev.dcd7c9e413c1488025cb.png",
+    "static/media/brian.jpg": "/website/static/media/brian.aa6ac18a81f7a287a8a7.jpg",
     "static/media/alan.jpg": "/website/static/media/alan.88af76aec80ed588c885.jpg",
     "static/media/antonela.png": "/website/static/media/antonela.54d588cd656735b80d46.png",
     "static/media/diego.jpeg": "/website/static/media/diego.fa385cdf50de8fbe5186.jpeg",
@@ -63,6 +64,7 @@
     "static/media/juanManuel.png": "/website/static/media/juanManuel.5a3c374e6d3f9a3bc1a0.png",
     "static/media/alejoL.jpg": "/website/static/media/alejoL.3ad9454f579f0860351e.jpg",
     "static/media/lucas.jpg": "/website/static/media/lucas.9e4cd510b3c493478f55.jpg",
+    "static/media/siesta1.jpg": "/website/static/media/siesta1.9bccbf06899f9d2d7b91.jpg",
     "static/media/santiago.jpeg": "/website/static/media/santiago.5cd156abeac424a9a870.jpeg",
     "static/media/alejo.jpeg": "/website/static/media/alejo.259c81bcee1a596229d5.jpeg",
     "static/media/camilaR.jpeg": "/website/static/media/camilaR.673890f135bbc87fe7c2.jpeg",
@@ -86,6 +88,7 @@
     "static/media/venue-small-background.png": "/website/static/media/venue-small-background.c27d6441bfd7d94ba7d3.png",
     "static/media/sebastian.jpeg": "/website/static/media/sebastian.9b16a20690df65777271.jpeg",
     "static/media/eeuu.svg": "/website/static/media/eeuu.72cb3b6a85377fba00635a33c43499e2.svg",
+    "static/media/sweetman.jpeg": "/website/static/media/sweetman.59ebfa72da370246d206.jpeg",
     "static/media/evan.jpeg": "/website/static/media/evan.b8700d916261a61fec41.jpeg",
     "static/media/vicky.jpeg": "/website/static/media/vicky.bccba602966c9b27eda1.jpeg",
     "static/media/sxysun.jpg": "/website/static/media/sxysun.8e2274145f6daa86493e.jpg",
@@ -142,11 +145,11 @@
     "static/media/elipse.svg": "/website/static/media/elipse.8cce15fc34db636328344e5815976be7.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.b3f11923.js.map": "/website/static/js/main.b3f11923.js.map",
+    "main.1a6a750d.js.map": "/website/static/js/main.1a6a750d.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.b3f11923.js"
+    "static/js/main.1a6a750d.js"
   ]
 }
