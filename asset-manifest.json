@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.1a6a750d.js",
+    "main.js": "/website/static/js/main.6acc3477.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
     "static/media/nahuel.JPG": "/website/static/media/nahuel.b7aa6bec6eadd07a96ff.JPG",
     "static/media/nicolasM.jpeg": "/website/static/media/nicolasM.fd1a8145470cc2eec562.jpeg",
@@ -43,7 +43,6 @@
     "static/media/andrew.jpg": "/website/static/media/andrew.9926dd80e91c5f9cec67.jpg",
     "static/media/damian.png": "/website/static/media/damian.0d7a508189eb82e59793.png",
     "static/media/cristian.jpg": "/website/static/media/cristian.01296c79c4f1cb683b1d.jpg",
-    "static/media/will.png": "/website/static/media/will.93aa2b3334d7cb392b37.png",
     "static/media/aya.jpeg": "/website/static/media/aya.326af660db292e268303.jpeg",
     "static/media/nadia.jpeg": "/website/static/media/nadia.67b6c74be6157dec21c6.jpeg",
     "static/media/venue-small.png": "/website/static/media/venue-small.bb1742136b8d56d0755b.png",
@@ -96,11 +95,11 @@
     "static/media/date22.svg": "/website/static/media/date22.a9a5b8c7fd5cece1dd6da7f786354391.svg",
     "static/media/NeuePixelGrotesk.ttf": "/website/static/media/NeuePixelGrotesk.6bd565ee1cdf58efcb36.ttf",
     "static/media/0xjean.jpeg": "/website/static/media/0xjean.92665cca706e5b40971b.jpeg",
+    "static/media/jaffet.jpg": "/website/static/media/jaffet.b6a30070262e024c61bd.jpg",
     "static/media/belo.svg": "/website/static/media/belo.7cc615bea6852b2a5cce376d5fda7c8a.svg",
     "static/media/adrian.jpeg": "/website/static/media/adrian.7b111015608086ca2c41.jpeg",
     "static/media/mariano.jpeg": "/website/static/media/mariano.7a7861f9b60e1b370dca.jpeg",
     "static/media/date11.svg": "/website/static/media/date11.4e786947c2877aa96d3de2d8d797c515.svg",
-    "static/media/demian.jpg": "/website/static/media/demian.243938add4feaac87d3b.jpg",
     "static/media/demianD.jpg": "/website/static/media/demianD.243938add4feaac87d3b.jpg",
     "static/media/shannon.jpeg": "/website/static/media/shannon.2dc5cb74afad8cae5701.jpeg",
     "static/media/ethereumFoundation.svg": "/website/static/media/ethereumFoundation.bc7b239a93a43fe03c16f46dfeb73086.svg",
@@ -145,11 +144,11 @@
     "static/media/elipse.svg": "/website/static/media/elipse.8cce15fc34db636328344e5815976be7.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.1a6a750d.js.map": "/website/static/js/main.1a6a750d.js.map",
+    "main.6acc3477.js.map": "/website/static/js/main.6acc3477.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.1a6a750d.js"
+    "static/js/main.6acc3477.js"
   ]
 }
