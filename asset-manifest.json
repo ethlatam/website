@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.d4487f81.js",
+    "main.js": "/website/static/js/main.ee5cf121.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
     "static/media/nahuel.JPG": "/website/static/media/nahuel.b7aa6bec6eadd07a96ff.JPG",
+    "static/media/nicolasM.jpeg": "/website/static/media/nicolasM.fd1a8145470cc2eec562.jpeg",
     "static/media/santos.jpg": "/website/static/media/santos.1dd10fcefd70ca4019da.jpg",
     "static/media/skeletor.jpg": "/website/static/media/skeletor.78df9f1fee01b47abc79.jpg",
     "static/media/matiasN.jpg": "/website/static/media/matiasN.f6aa06c29ca6ffc6aa52.jpg",
@@ -21,7 +22,9 @@
     "static/media/patricioW.jpg": "/website/static/media/patricioW.30618be484fa86c13491.jpg",
     "static/media/carousel.png": "/website/static/media/carousel.c5d1ec0a9720779fc162.png",
     "static/media/cryptoChica.png": "/website/static/media/cryptoChica.774538608538edd881d9.png",
+    "static/media/marianoD.jpg": "/website/static/media/marianoD.26e34cfd3527210fccc2.jpg",
     "static/media/evin.jpg": "/website/static/media/evin.e63f385c59b8f35c9f98.jpg",
+    "static/media/ramiro.jpg": "/website/static/media/ramiro.3a152eb80a8edbb0322d.jpg",
     "static/media/matias.png": "/website/static/media/matias.4d203d4baf7bfda3bc89.png",
     "static/media/siesta.png": "/website/static/media/siesta.083ad3da3896ad7bc64e.png",
     "static/media/skylar.jpg": "/website/static/media/skylar.a5d8b07c04c450e3b7c5.jpg",
@@ -33,6 +36,7 @@
     "static/media/diego.jpeg": "/website/static/media/diego.fa385cdf50de8fbe5186.jpeg",
     "static/media/patricioM.jpg": "/website/static/media/patricioM.091366948cfc0f57e0e4.jpg",
     "static/media/oli.jpeg": "/website/static/media/oli.46e5f73a667249a6a75e.jpeg",
+    "static/media/andrew.jpg": "/website/static/media/andrew.9926dd80e91c5f9cec67.jpg",
     "static/media/damian.png": "/website/static/media/damian.0d7a508189eb82e59793.png",
     "static/media/cristian.jpg": "/website/static/media/cristian.01296c79c4f1cb683b1d.jpg",
     "static/media/will.png": "/website/static/media/will.93aa2b3334d7cb392b37.png",
@@ -44,10 +48,12 @@
     "static/media/maxi.jpeg": "/website/static/media/maxi.62cfde8c4159d68a2319.jpeg",
     "static/media/roadToDevcon.svg": "/website/static/media/roadToDevcon.d6ac7cbe5fc9b756b7e9b3c8000036d9.svg",
     "static/media/Wonderland.png": "/website/static/media/Wonderland.1c2bee7571b74b862fd2.png",
+    "static/media/nicolasC.jpg": "/website/static/media/nicolasC.a3fb4b9309877839ea68.jpg",
     "static/media/Scroll.svg": "/website/static/media/Scroll.88df9c41d7257b42d29d73ba8afa5c7a.svg",
     "static/media/gerrit.jpg": "/website/static/media/gerrit.cd8e998cacf66cc01f70.jpg",
     "static/media/ohad.jpg": "/website/static/media/ohad.86b27cf863368f3c1092.jpg",
     "static/media/gabriel.jpeg": "/website/static/media/gabriel.8578086bcd8a51e9e585.jpeg",
+    "static/media/luiz.jpg": "/website/static/media/luiz.8e2bf1575c2f37cb9732.jpg",
     "static/media/georgios.jpeg": "/website/static/media/georgios.3a8e201b38bddfc57e12.jpeg",
     "static/media/marcelo.jpg": "/website/static/media/marcelo.1b7ad775e08110be3a23.jpg",
     "static/media/juanManuel.png": "/website/static/media/juanManuel.5a3c374e6d3f9a3bc1a0.png",
@@ -67,6 +73,7 @@
     "static/media/fernanda.jpeg": "/website/static/media/fernanda.221f439084a174ce2b5f.jpeg",
     "static/media/agusx1211.jpg": "/website/static/media/agusx1211.b3799ecd3c2737d6a636.jpg",
     "static/media/brz.svg": "/website/static/media/brz.40bf859932c0365953cd477604754b50.svg",
+    "static/media/damianM.jpg": "/website/static/media/damianM.c9b5b2bb682f45b95b64.jpg",
     "static/media/gino.jpeg": "/website/static/media/gino.7e8c2ea7d0d2e6e657a5.jpeg",
     "static/media/wade.jpeg": "/website/static/media/wade.162257508b14f8dba507.jpeg",
     "static/media/nicolas.jpg": "/website/static/media/nicolas.ba4f36004c82b1d9557f.jpg",
@@ -131,11 +138,11 @@
     "static/media/elipse.svg": "/website/static/media/elipse.8cce15fc34db636328344e5815976be7.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.d4487f81.js.map": "/website/static/js/main.d4487f81.js.map",
+    "main.ee5cf121.js.map": "/website/static/js/main.ee5cf121.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.d4487f81.js"
+    "static/js/main.ee5cf121.js"
   ]
 }
