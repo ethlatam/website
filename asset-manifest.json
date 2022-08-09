@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.12f7cd0e.js",
+    "main.js": "/website/static/js/main.93068e75.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
-    "static/media/skeletor.jpeg": "/website/static/media/skeletor.9a2a58fdcc83765bc568.jpeg",
-    "static/media/nahuel.JPG": "/website/static/media/nahuel.93781a49c343c1f7e9fd.JPG",
-    "static/media/harsh.jpeg": "/website/static/media/harsh.6c98f5a4776960a13bbb.jpeg",
+    "static/media/nahuel.JPG": "/website/static/media/nahuel.b7aa6bec6eadd07a96ff.JPG",
+    "static/media/skeletor.jpg": "/website/static/media/skeletor.78df9f1fee01b47abc79.jpg",
     "static/media/matiasN.jpg": "/website/static/media/matiasN.f6aa06c29ca6ffc6aa52.jpg",
     "static/media/epns.svg": "/website/static/media/epns.3657ce74f4ef54d62638a19903544cee.svg",
     "static/media/rodrigo.jpg": "/website/static/media/rodrigo.53553956b2a90872aca2.jpg",
     "static/media/wei3erHase.jpg": "/website/static/media/wei3erHase.01a241b4d20a84c9f710.jpg",
+    "static/media/harsh.jpeg": "/website/static/media/harsh.f35ccb4633e599a8bcb6.jpeg",
     "static/media/manuel.jpg": "/website/static/media/manuel.607639b00bf7504b5d82.jpg",
     "static/media/side.png": "/website/static/media/side.3564e4acca7e7d7291bd.png",
     "static/media/jose.jpg": "/website/static/media/jose.dae600c287c26a7eacbf.jpg",
@@ -23,6 +23,7 @@
     "static/media/evin.jpg": "/website/static/media/evin.e63f385c59b8f35c9f98.jpg",
     "static/media/matias.png": "/website/static/media/matias.4d203d4baf7bfda3bc89.png",
     "static/media/siesta.png": "/website/static/media/siesta.083ad3da3896ad7bc64e.png",
+    "static/media/skylar.jpg": "/website/static/media/skylar.a5d8b07c04c450e3b7c5.jpg",
     "static/media/side-small.png": "/website/static/media/side-small.147c6b74bb68f097bd07.png",
     "static/media/ThinkandDev.png": "/website/static/media/ThinkandDev.dcd7c9e413c1488025cb.png",
     "static/media/alan.jpg": "/website/static/media/alan.88af76aec80ed588c885.jpg",
@@ -122,11 +123,11 @@
     "static/media/elipse.svg": "/website/static/media/elipse.8cce15fc34db636328344e5815976be7.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.12f7cd0e.js.map": "/website/static/js/main.12f7cd0e.js.map",
+    "main.93068e75.js.map": "/website/static/js/main.93068e75.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.12f7cd0e.js"
+    "static/js/main.93068e75.js"
   ]
 }
