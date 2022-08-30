@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.a4021c6b.js",
+    "main.js": "/website/static/js/main.b3295e16.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
     "static/media/carousel-bog.png": "/website/static/media/carousel-bog.0ec9795a935e0bc193ae.png",
     "static/media/nahuel.JPG": "/website/static/media/nahuel.b7aa6bec6eadd07a96ff.JPG",
@@ -152,11 +152,11 @@
     "static/media/elipse.svg": "/website/static/media/elipse.8cce15fc34db636328344e5815976be7.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.a4021c6b.js.map": "/website/static/js/main.a4021c6b.js.map",
+    "main.b3295e16.js.map": "/website/static/js/main.b3295e16.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.a4021c6b.js"
+    "static/js/main.b3295e16.js"
   ]
 }
