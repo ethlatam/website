@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.1cb6672b.js",
+    "main.js": "/website/static/js/main.5d42b169.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
     "static/media/carousel-bog.png": "/website/static/media/carousel-bog.0ec9795a935e0bc193ae.png",
     "static/media/nahuel.JPG": "/website/static/media/nahuel.b7aa6bec6eadd07a96ff.JPG",
@@ -128,8 +128,8 @@
     "static/media/auth0.svg": "/website/static/media/auth0.f97812a5659594fce58717c7ed6a936c.svg",
     "static/media/Maker.svg": "/website/static/media/Maker.0ecc3a0ba6cea24fae1c28f6dd121818.svg",
     "static/media/worldcoin.svg": "/website/static/media/worldcoin.405f92e2a2cf4b584cbbd1691b6aedf0.svg",
-    "index.html": "/website/index.html",
     "static/media/navbar-logo.svg": "/website/static/media/navbar-logo.c8cccdd6248544d7850a1bbcfd8d1e5c.svg",
+    "index.html": "/website/index.html",
     "static/media/bitso.svg": "/website/static/media/bitso.5431305dabc904eaa6202d557538a241.svg",
     "static/media/logo.svg": "/website/static/media/logo.29f61bf3be4b2f90ab45329be1cd9322.svg",
     "static/media/lemon.svg": "/website/static/media/lemon.a357ecd11d8ee5b488be81f71baf3433.svg",
@@ -152,11 +152,11 @@
     "static/media/elipse.svg": "/website/static/media/elipse.8cce15fc34db636328344e5815976be7.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.1cb6672b.js.map": "/website/static/js/main.1cb6672b.js.map",
+    "main.5d42b169.js.map": "/website/static/js/main.5d42b169.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.1cb6672b.js"
+    "static/js/main.5d42b169.js"
   ]
 }
