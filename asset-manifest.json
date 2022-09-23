@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/website/static/css/main.e3841586.css",
-    "main.js": "/website/static/js/main.31a84c22.js",
+    "main.js": "/website/static/js/main.e6e07752.js",
     "static/js/787.0dc353ea.chunk.js": "/website/static/js/787.0dc353ea.chunk.js",
     "static/media/jordi.jpg": "/website/static/media/jordi.639b6c168cf78475c549.jpg",
+    "static/media/mario.jpg": "/website/static/media/mario.de01780eccd311c0931c.jpg",
     "static/media/DiegoMazo.png": "/website/static/media/DiegoMazo.737cf20b3008791f2398.png",
     "static/media/cryptochica.png": "/website/static/media/cryptochica.f53d40b011c206ce6f86.png",
+    "static/media/ahh.png": "/website/static/media/ahh.5f476749531d0ec3e990.png",
     "static/media/TobalGarcia.jpeg": "/website/static/media/TobalGarcia.32ac163eb2810e7acd51.jpeg",
     "static/media/ocando.jpg": "/website/static/media/ocando.0786dd9cc654867df96c.jpg",
     "static/media/LucasJolias.jpg": "/website/static/media/LucasJolias.096ec0404df25dd955fa.jpg",
@@ -17,6 +19,7 @@
     "static/media/nicolasM.jpeg": "/website/static/media/nicolasM.fd1a8145470cc2eec562.jpeg",
     "static/media/Dmars.png": "/website/static/media/Dmars.ba4458d3e1a4ae19c75c.png",
     "static/media/milton.png": "/website/static/media/milton.9b01198048037194b10a.png",
+    "static/media/diegol.png": "/website/static/media/diegol.efadc6e64b932a128039.png",
     "static/media/santos.jpg": "/website/static/media/santos.1dd10fcefd70ca4019da.jpg",
     "static/media/skeletor.jpg": "/website/static/media/skeletor.78df9f1fee01b47abc79.jpg",
     "static/media/matiasN.jpg": "/website/static/media/matiasN.f6aa06c29ca6ffc6aa52.jpg",
@@ -41,6 +44,7 @@
     "static/media/marianoD.jpg": "/website/static/media/marianoD.26e34cfd3527210fccc2.jpg",
     "static/media/evin.jpg": "/website/static/media/evin.e63f385c59b8f35c9f98.jpg",
     "static/media/ramiro.jpg": "/website/static/media/ramiro.3a152eb80a8edbb0322d.jpg",
+    "static/media/emilia.jpeg": "/website/static/media/emilia.58120576fe06a3750d63.jpeg",
     "static/media/matias.png": "/website/static/media/matias.4d203d4baf7bfda3bc89.png",
     "static/media/siesta.png": "/website/static/media/siesta.083ad3da3896ad7bc64e.png",
     "static/media/skylar.jpg": "/website/static/media/skylar.a5d8b07c04c450e3b7c5.jpg",
@@ -68,10 +72,12 @@
     "static/media/damian.png": "/website/static/media/damian.0d7a508189eb82e59793.png",
     "static/media/cristian.jpg": "/website/static/media/cristian.01296c79c4f1cb683b1d.jpg",
     "static/media/AleBorda.jpg": "/website/static/media/AleBorda.8ebe81f6e528584496a4.jpg",
+    "static/media/doris.jpeg": "/website/static/media/doris.c9264764b3c1ad68cad7.jpeg",
     "static/media/Aya.jpeg": "/website/static/media/Aya.326af660db292e268303.jpeg",
     "static/media/aya.jpeg": "/website/static/media/aya.326af660db292e268303.jpeg",
     "static/media/pe.svg": "/website/static/media/pe.9412c8bf3459213d3b45844e0e0d5ce9.svg",
     "static/media/nadia.jpeg": "/website/static/media/nadia.67b6c74be6157dec21c6.jpeg",
+    "static/media/carlosmesa.jpeg": "/website/static/media/carlosmesa.3a1ea23da9f8e16da6a0.jpeg",
     "static/media/venue-small.png": "/website/static/media/venue-small.bb1742136b8d56d0755b.png",
     "static/media/pablo.jpg": "/website/static/media/pablo.6e480d8aaa613665bcd7.jpg",
     "static/media/benjamin.jpg": "/website/static/media/benjamin.1c9287177831d4f9a91a.jpg",
@@ -95,6 +101,7 @@
     "static/media/natacha.jpg": "/website/static/media/natacha.54b215387b0f463a143b.jpg",
     "static/media/alejoL.jpg": "/website/static/media/alejoL.3ad9454f579f0860351e.jpg",
     "static/media/lucas.jpg": "/website/static/media/lucas.9e4cd510b3c493478f55.jpg",
+    "static/media/pol.jpg": "/website/static/media/pol.73a082266e879fa76d71.jpg",
     "static/media/siesta1.jpg": "/website/static/media/siesta1.9bccbf06899f9d2d7b91.jpg",
     "static/media/santiago.jpeg": "/website/static/media/santiago.5cd156abeac424a9a870.jpeg",
     "static/media/alejo.jpeg": "/website/static/media/alejo.259c81bcee1a596229d5.jpeg",
@@ -117,6 +124,7 @@
     "static/media/agusx1211.jpg": "/website/static/media/agusx1211.b3799ecd3c2737d6a636.jpg",
     "static/media/brz.svg": "/website/static/media/brz.40bf859932c0365953cd477604754b50.svg",
     "static/media/damianM.jpg": "/website/static/media/damianM.c9b5b2bb682f45b95b64.jpg",
+    "static/media/gaby.jpg": "/website/static/media/gaby.ec0641328b86c58c4165.jpg",
     "static/media/carloss.jpeg": "/website/static/media/carloss.10792d997a4b7f3a1ec5.jpeg",
     "static/media/gino.jpeg": "/website/static/media/gino.7e8c2ea7d0d2e6e657a5.jpeg",
     "static/media/CristianEspinozaGarner.jpg": "/website/static/media/CristianEspinozaGarner.9df477922cbd6222489c.jpg",
@@ -199,13 +207,14 @@
     "static/media/ch.svg": "/website/static/media/ch.55323a0680e7c5ff735b3ef0b6a59555.svg",
     "static/media/cr.svg": "/website/static/media/cr.da71ea0e0e43752f1f4a93d992349b16.svg",
     "static/media/co.svg": "/website/static/media/co.2035da4efa474be5bb4bf93fb3d73174.svg",
+    "static/media/de.svg": "/website/static/media/de.6435bf24d148ca7248e78a89c1d026ca.svg",
     "static/media/latam-underline.svg": "/website/static/media/latam-underline.fd543ed34b0171d8a7cabdb04b64f1d9.svg",
     "main.e3841586.css.map": "/website/static/css/main.e3841586.css.map",
-    "main.31a84c22.js.map": "/website/static/js/main.31a84c22.js.map",
+    "main.e6e07752.js.map": "/website/static/js/main.e6e07752.js.map",
     "787.0dc353ea.chunk.js.map": "/website/static/js/787.0dc353ea.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e3841586.css",
-    "static/js/main.31a84c22.js"
+    "static/js/main.e6e07752.js"
   ]
 }
