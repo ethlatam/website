@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Dropdown from 'react-dropdown'
 import { Link } from 'react-scroll'
 
-const Tabs = ({ mode }) => {
+const Tabs = ({ mode, color }) => {
   const [isDropDownOpen, setIsDropDownOpen] = useState(false)
   const [subDropDown, setSubDropDown] = useState(false)
   const showDropDown = () => {
@@ -31,7 +31,7 @@ const Tabs = ({ mode }) => {
 
   const edition = localStorage.getItem('edition')
   return (
-    <TabsBox mode={mode}>
+    <TabsBox mode={mode} color={color}>
       <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
         <FormattedMessage id="navbar.about" />
       </Link>
@@ -115,7 +115,7 @@ const TabsBox = styled.div`
     &:hover,
     &:active,
     &:focus {
-      border-bottom: solid 4px #80ff9f;
+      border-bottom: solid 4px ${props => (props.color == 'green' ? '#80ff9f' : '#00BDE5')};
     }
   }
 

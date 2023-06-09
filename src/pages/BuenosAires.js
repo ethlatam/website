@@ -9,21 +9,28 @@ import Faqs from '../sections/Faqs'
 import TheOtherSide from '../sections/TheOtherSide'
 import Venue from '../sections/Venue'
 import Footer from '../sections/Footer'
+import date1 from '../assets/date1.svg'
+import date2 from '../assets/date2.svg'
+import Loop from "../components/Loop";
+import loopArg from '../assets/carousel-ba.png'
+import { PALETTE } from "../App";
 
-function BuenosAires () {
-  localStorage.setItem('edition', 'buenos-aires')
+function BuenosAires() {
+    localStorage.setItem('edition', 'buenos-aires')
     return (
         <div className="App">
-            <Navbar />
-            <Hero />
+            <Navbar color={'green'} />
+            <Hero color={"green"} buttonSrc={"https://www.youtube.com/channel/UCYZOSfxEQ4hmocHqjZAy_dw/playlists"} loopSrc={loopArg} />
             <EthToLatam />
+            <Loop reverse content={<img src={date1} />} />
+            <Loop content={<img src={date2} />} />
             <Speakers />
             <Sponsors />
-            <MediaPartners/>
+            <MediaPartners />
             <Venue />
             <Schedule />
             <TheOtherSide />
-            <Faqs/>
+            <Faqs />
             <Footer />
         </div>
     )

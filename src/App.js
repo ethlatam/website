@@ -1,12 +1,12 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import { IntlProvider } from 'react-intl'
-import { addLocaleData } from 'react-intl'
 
 import messages_en from './translations/en.json'
 import messages_es from './translations/es.json'
 import messages_pt from './translations/pt.json'
 import Bogota from './pages/Bogota'
+import Honduras from './pages/Honduras'
 import BuenosAires from './pages/BuenosAires'
 
 const messages = {
@@ -21,12 +21,25 @@ const locale =
     ? localStorage.getItem('locale')
     : 'es'
 
-let defaultEdition = 'bogota'
-localStorage.setItem('edition', 'bogota')
+let defaultEdition = 'honduras'
+localStorage.setItem('edition', defaultEdition)
 const edition =
   typeof window.localStorage !== 'undefined'
     ? localStorage.getItem('edition')
-    : 'bogota'
+    : defaultEdition
+
+export const ROUTES = [
+  { id: 1, path: '/honduras', description: "Honduras" },
+  { id: 2, path: '/bogota', description: "Bogota" },
+  { id: 3, path: '/buenos-aires', description: "Buenos Aires" }
+]
+
+export const PALETTE = {
+	GREEN: "#80ff9f",
+  SKYBLUE: "#00BDE5"
+}
+
+
 
 function App() {
   return (
@@ -36,8 +49,10 @@ function App() {
         messages={messages[locale || defaultLanguage]}
       >
         <Routes>
-          <Route path="/" element={<Bogota />} />
+          <Route path="/" element={<Honduras />} />
+          <Route path="/bogota" element={<Bogota />} />
           <Route path="/buenos-aires" element={<BuenosAires />} />
+          <Route path="/honduras" element={<Honduras />} />
         </Routes>
       </IntlProvider>
     </div>

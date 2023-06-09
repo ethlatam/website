@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components'
-import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
-import Loop from '../components/Loop'
-import date1 from '../assets/date1.svg'
-import date2 from '../assets/date2.svg'
-import date1bog from '../assets/date1-bogota.svg'
-import date2bog from '../assets/date2-bogota.svg'
+import { FormattedHTMLMessage } from 'react-intl'
 import underline from '../assets/latam-underline.svg'
 import arrow from '../assets/arrow.svg'
 
@@ -26,7 +21,7 @@ const EthToLatam = () => {
       <Container>
         <h1>
           <FormattedHTMLMessage id="ethtolatam.title" />
-          {width < medium &&  locale != 'en' && <br />}
+          {width < medium && locale != 'en' && <br />}
           <Arrow src={arrow} />
           {width >= medium && <br />}
           <Green>
@@ -35,13 +30,11 @@ const EthToLatam = () => {
           </Green>
         </h1>
         <TextBox>
-          <FormattedHTMLMessage id={edition + ".ethtolatam.paragraph1"}/>
+          <FormattedHTMLMessage id={edition + ".ethtolatam.paragraph1"} />
           <FormattedHTMLMessage id={edition + ".ethtolatam.paragraph2"} />
         </TextBox>
-        
+
       </Container>
-      <Loop reverse content={<img src={edition=='bogota' ? date1bog : date1} />} />
-      <Loop content={<img src={edition=='bogota' ? date2bog : date2} />} />
     </EthToLatamSection>
   )
 }

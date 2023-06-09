@@ -8,7 +8,7 @@ import Flags from '../components/Flags'
 import GetTickets from '../components/GetTickets'
 import logo from '../assets/navbar-logo.svg'
 
-const Navbar = () => {
+const Navbar = ({color}) => {
   const [width, setWidth] = useState(window.innerWidth)
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
@@ -22,10 +22,10 @@ const Navbar = () => {
         <img alt="img" src={logo} />
         {width >= medium ? (
           <>
-            <Tabs mode="large" />
+            <Tabs mode="large" color={color}/>
             <div className="right">
-              <Flags />
-              <GetTickets />
+              <Flags color={color} />
+              <GetTickets color={color} />
             </div>
           </>
         ) : (
