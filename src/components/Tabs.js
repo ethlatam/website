@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 import Dropdown from 'react-dropdown'
 import { Link } from 'react-scroll'
+import { PALETTE } from '../App'
 
 const Tabs = ({ mode, color }) => {
   const [isDropDownOpen, setIsDropDownOpen] = useState(false)
@@ -46,8 +47,6 @@ const Tabs = ({ mode, color }) => {
       </Link>
       {edition === 'buenos-aires' && (
         <>
-
-
           <Link
             to="sponsors"
             spy={true}
@@ -115,7 +114,7 @@ const TabsBox = styled.div`
     &:hover,
     &:active,
     &:focus {
-      border-bottom: solid 4px ${props => (props.color == 'green' ? '#80ff9f' : '#00BDE5')};
+      border-bottom: solid 4px ${props => (props.color ?? PALETTE.GREEN)};
     }
   }
 

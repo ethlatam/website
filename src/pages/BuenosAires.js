@@ -20,7 +20,7 @@ function BuenosAires() {
     return (
         <div className="App">
             <Navbar color={'green'} />
-            <Hero color={"green"} buttonSrc={"https://www.youtube.com/channel/UCYZOSfxEQ4hmocHqjZAy_dw/playlists"} loopSrc={loopArg} />
+            <Hero color={PALETTE.GREEN} colorButton={PALETTE.GRAY} buttonSrc={"https://www.youtube.com/channel/UCYZOSfxEQ4hmocHqjZAy_dw/playlists"} loopSrc={loopArg} />
             <EthToLatam />
             <Loop reverse content={<img src={date1} />} />
             <Loop content={<img src={date2} />} />

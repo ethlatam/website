@@ -83,7 +83,7 @@
   "honduras.hero.date": "11-12-13",
   "honduras.hero.month": "OCTOBER",
   "honduras.hero.year": "2023",
-  "honduras.hero.city": "@san\n \npedrosula",
+  "honduras.hero.city": "@San<br>pedrosula",
   "honduras.hero.country": ">> Honduras",
   "honduras.venue.title": "<span class='pixel'>c</span>ent<span class='pixel'>ro</span> d<span class='pixel'>e</span><br/>co<span class='pixel'>n</span>venci<span class='pixel'>o</span>nes<br /><span class='pixel'>Bu</span>en<span class='pixel'>o</span>s air<span class='pixel'>es</span>",
   "honduras.venue.address": "Figueroa Alcorta 2099, Buenos Aires.",
@@ -104,6 +104,13 @@
   "honduras.faqs.6.title": "¿Cómo puedo organizar un side event?",
   "honduras.faqs.6.content": "<p>Nuestro objetivo con ETH Latam es fomentar la coordinación descentralizada de una eventos basados ​​en Ethereum. Naturalmente, habrá muchos más eventos, fiestas y actividades durante la semana de ETH Latam.</p><p>Si deseas organizar tu propio side event, completa <a href='https://docs.google.com/forms/d/e/1FAIpQLSeMF0NTey0Dgq8_74e6Ddc9NU2ISTguiHH0_mM8EpYRdhbGIw/viewform'>este formulario</a></p>",
   "honduras.faqs.7.title": "¿Preguntas o ideas?",
-  "honduras.faqs.7.content": "¿Tienes alguna pregunta o idea que quisieras sugerir? Envíanos un correo electrónico a <a href='mailto:hello@ethkipu.org'>hello@ethkipu.org</a>"
+  "honduras.faqs.7.content": "¿Tienes alguna pregunta o idea que quisieras sugerir? Envíanos un correo electrónico a <a href='mailto:hello@ethkipu.org'>hello@ethkipu.org</a>",
+  "honduras.apply.text": "Quiero ser parte de  eth latam 2023 como:",
+  "honduras.apply.sponsor": "Sponsor",
+  "honduras.apply.sponsor.href": "#",
+  "honduras.apply.speaker": "Speaker",
+  "honduras.apply.speaker.href": "#",
+  "honduras.apply.volunteer": "Voluntario",
+  "honduras.apply.volunteer.href": "#"
 
 }

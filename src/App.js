@@ -36,7 +36,9 @@ export const ROUTES = [
 
 export const PALETTE = {
 	GREEN: "#80ff9f",
-  SKYBLUE: "#00BDE5"
+  SKYBLUE: "#00BDE5",
+  PINK: "#E573E5",
+  GRAY: "#FAF7F5"
 }
 
 

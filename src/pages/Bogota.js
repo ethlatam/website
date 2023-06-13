@@ -12,6 +12,7 @@ import date1bog from '../assets/date1-bogota.svg'
 import date2bog from '../assets/date2-bogota.svg'
 import Loop from "../components/Loop";
 import loopCol from '../assets/carousel-bog.png'
+import { PALETTE } from "../App";
 
 function Bogota() {
     localStorage.setItem('edition', 'bogota')
@@ -19,7 +20,7 @@ function Bogota() {
     return (
         <div className="App">
             <Navbar color={'green'} />
-            <Hero color={"green"} buttonSrc={"https://www.youtube.com/watch?v=gvYaRfQgBKg&list=PLXLZg2ObgxWG0aHsrXBTYJu21Fb0wfoWi"} loopSrc={loopCol} />
+            <Hero color={PALETTE.GREEN} colorButton={PALETTE.GRAY} buttonSrc={"https://www.youtube.com/watch?v=gvYaRfQgBKg&list=PLXLZg2ObgxWG0aHsrXBTYJu21Fb0wfoWi"} loopSrc={loopCol} />
             <EthToLatam />
             <Loop reverse content={<img src={date1bog} />} />
             <Loop content={<img src={date2bog} />} />

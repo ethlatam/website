@@ -14,7 +14,8 @@ function Honduras() {
     return (
         <div className="App">
             <Navbar color={'skyblue'} />
-            <Hero color={"skyblue"} buttonSrc={"#"} loopSrc={loopHonduras} />
+            <Hero color={PALETTE.SKYBLUE} colorButton={PALETTE.SKYBLUE} buttonSrc={"#"} loopSrc={loopHonduras} />
+            <Apply />
             <EthToLatam />
             <Venue />
             <Faqs />

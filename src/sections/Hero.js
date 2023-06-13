@@ -1,34 +1,34 @@
 import React from 'react'
-import { FormattedMessage } from 'react-intl'
+import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
 import background from '../assets/hero-line.svg'
 import styled from 'styled-components'
 import logo from '../assets/logo.svg'
 import Loop from '../components/Loop'
 import { Button } from '../components/Button'
 import Container from '../components/Container'
+import { PALETTE } from '../App'
 
-const Hero = ({ buttonSrc, loopSrc, color }) => {
+const Hero = ({ buttonSrc, loopSrc, color, colorButton }) => {
   const edition = localStorage.getItem('edition')
-  console.log("Edition Hero:", edition);
   return (
     <HeroSection>
       <Container>
         <Box>
-          <p>
+          <TextPixel align={"left"}>
             <FormattedMessage id={edition + '.hero.month'} />
             <br />
             <FormattedMessage id={edition + '.hero.date'} />
             <br />
             <FormattedMessage id={edition + '.hero.year'} />
-          </p>
+          </TextPixel>
           <img alt="img" src={logo} />
-          <p className={color ?? 'green'}>
-            <FormattedMessage id={edition + '.hero.city'} />
+          <TextPixel align={"right"} color={color}>
+            <FormattedHTMLMessage id={edition + '.hero.city'} />
             <br />
-            <FormattedMessage id={edition + '.hero.country'} />
-          </p>
+            <FormattedHTMLMessage id={edition + '.hero.country'} />
+          </TextPixel>
         </Box>
-        <ButtonHero color={color} href={buttonSrc} target="_blank">
+        <ButtonHero color={colorButton ?? PALETTE.GRAY} href={buttonSrc} target="_blank">
           <FormattedMessage id={edition + '.hero.button'} />
         </ButtonHero>
       </Container>
@@ -46,26 +46,6 @@ const HeroSection = styled.section`
   background-position: center bottom;
   padding-bottom: 50px;
   height: auto;
-  p {
-    font-family: 'Pixel';
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 32px;
-    text-transform: uppercase;
-    color: #b3b3b3;
-    &.green {
-      color: #80ff9f;
-    }
-    &.skyblue {
-      color: #00BDE5;
-    }
-  }
-  .streaming-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
 `
 
 const Country = styled.img`
@@ -77,8 +57,18 @@ const Country = styled.img`
   border-radius: 2px;
 `
 
+const TextPixel = styled.span`
+  color: ${props => props.color};
+  text-align: ${props => props.align};
+  font-family: 'Pixel';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 32px;
+  text-transform: uppercase;
+`
 
 const Box = styled.div`
+  color: ${props => props.color};
   padding-top: 160px;
   padding-bottom: 115px;
   display: flex;

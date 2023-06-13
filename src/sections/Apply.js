@@ -2,59 +2,70 @@ import styled from "styled-components";
 import Container from "../components/Container";
 import { Button } from "../components/Button";
 import { FormattedMessage } from "react-intl";
+import { PALETTE } from "../App";
 
 
 const Apply = (props) => {
     const edition = localStorage.getItem('edition')
     return (
         <ApplySection>
-            <Container>
-                <Content>
-                    <Box>
-                        <span>QUIERO SER PARTE DE ETH LATAM 2023 COMO:</span>
-                    </Box>
-                    <Box>
-                        <Button color={"skyblue"} href={"sponsor"} target="_blank">
-                            <FormattedMessage id={edition + '.hero.button'} />
-                        </Button>
-                        <Button color={"skyblue"} href={"Speaker"} target="_blank">
-                            <FormattedMessage id={edition + '.hero.button'} />
-                        </Button>
-                        <Button color={"skyblue"} href={"Voluntario"} target="_blank">
-                            <FormattedMessage id={edition + '.hero.button'} />
-                        </Button>
-                    </Box>
-                </Content>
-            </Container>
+            <ApplyContainer>
+                <Box>
+                    <FormattedMessage id="honduras.apply.text" />
+                </Box>
+                <Box>
+                    <ApplyButton color={PALETTE.GREEN} href={"honduras.apply.sponsor.href"} target="_blank">
+                        <FormattedMessage id="honduras.apply.sponsor" />
+                    </ApplyButton>
+                    <ApplyButton color={PALETTE.PINK} href={"honduras.apply.speaker.href"} target="_blank">
+                        <FormattedMessage id="honduras.apply.speaker" />
+                    </ApplyButton>
+                    <ApplyButton color={PALETTE.SKYBLUE} href={"honduras.apply.volunteer.href"} target="_blank">
+                        <FormattedMessage id="honduras.apply.volunteer" />
+                    </ApplyButton>
+                </Box>
+            </ApplyContainer>
         </ApplySection>
     )
 }
 
 const ApplySection = styled.section`
-    background-color: #fff;
+    max-width: 1440px;
+    color: #fff;
+    margin: auto;
 `
-
-const Content = styled.div`
+const ApplyContainer = styled.div`
     display: flex;
-    // flex-wrap: wrap;
-    // justify-content: center;
-    // align-items: flex-start;
-    // align-content: center;
-    // background-color: #2f1d58;
-    // overflow: auto;
     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    @media only screen and (max-width: 915px) {
+        flex-direction: column;
+    }
 `
 
 const Box = styled.div`
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
-    align-content: center;
-    width: 65%;
-    background-color: #2f1d58;
-    height: 80vh;
     overflow: auto;
+    flex-wrap: wrap;
+    font-size: 24px;
+    @media only screen and (max-width: 915px) {
+        padding: 15px;
+        flex-wrap: wrap;
+    }
 `
+
+const ApplyButton = styled(Button)`
+    padding: 10px 15px;
+    margin: 15px;
+    font-size: 16px;
+    @media only screen and (max-width: 600px) {
+        width: 100%;
+        text-align: center;
+    }
+`
+
 export default Apply;
