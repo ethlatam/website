@@ -13,6 +13,9 @@ import date2bog from '../assets/date2-bogota.svg'
 import Loop from "../components/Loop";
 import loopCol from '../assets/carousel-bog.png'
 import { PALETTE } from "../App";
+import venueSmSrc from '../assets/venue-small-bogota.png'
+import venueLgSrc from '../assets/venue-large-bogota.png'
+
 
 function Bogota() {
     localStorage.setItem('edition', 'bogota')
@@ -27,7 +30,11 @@ function Bogota() {
             <SpeakersBog />
             <SponsorsBog />
             <Agenda />
-            <Venue />
+            <Venue
+                locationHref={"https://agora-bogota.com/"}
+                venueSmSrc={venueSmSrc}
+                venueLgSrc={venueLgSrc}
+            />
             <Faqs />
             <Footer />
         </div>

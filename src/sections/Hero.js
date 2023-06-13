@@ -7,6 +7,7 @@ import Loop from '../components/Loop'
 import { Button } from '../components/Button'
 import Container from '../components/Container'
 import { PALETTE } from '../App'
+import { TextPixel } from '../components/TextPixel'
 
 const Hero = ({ buttonSrc, loopSrc, color, colorButton }) => {
   const edition = localStorage.getItem('edition')
@@ -55,16 +56,6 @@ const Country = styled.img`
   margin: 0 0 0 10px !important;
   padding: 0 !important;
   border-radius: 2px;
-`
-
-const TextPixel = styled.span`
-  color: ${props => props.color};
-  text-align: ${props => props.align};
-  font-family: 'Pixel';
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 32px;
-  text-transform: uppercase;
 `
 
 const Box = styled.div`

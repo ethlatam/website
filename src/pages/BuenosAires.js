@@ -14,6 +14,8 @@ import date2 from '../assets/date2.svg'
 import Loop from "../components/Loop";
 import loopArg from '../assets/carousel-ba.png'
 import { PALETTE } from "../App";
+import venueSmSrc from '../assets/venue-small.png'
+import venueLgSrc from '../assets/venue-large.png'
 
 function BuenosAires() {
     localStorage.setItem('edition', 'buenos-aires')
@@ -27,7 +29,11 @@ function BuenosAires() {
             <Speakers />
             <Sponsors />
             <MediaPartners />
-            <Venue />
+            <Venue
+                locationHref={"https://www.cecbuenosaires.com.ar/"}
+                venueSmSrc={venueSmSrc}
+                venueLgSrc={venueLgSrc}
+            />
             <Schedule />
             <TheOtherSide />
             <Faqs />

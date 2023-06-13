@@ -10,6 +10,7 @@ import { PALETTE } from "../App";
 import Apply from "../sections/Apply";
 import date1 from "../assets/date1-honduras.svg"
 import date2 from "../assets/date2-honduras.svg"
+import venueSmSrc from '../assets/venue-honduras.png'
 
 function Honduras() {
     localStorage.setItem('edition', 'honduras')
@@ -21,7 +22,11 @@ function Honduras() {
             <EthToLatam />
             <Loop reverse content={<img src={date1} />} />
             <Loop content={<img src={date2} />} />
-            <Venue />
+            <Venue
+                locationHref={"https://www.cecbuenosaires.com.ar/"}
+                venueSmSrc={venueSmSrc}
+                venueLgSrc={venueSmSrc}
+            />
             <Faqs />
             <Footer />
         </div>
