@@ -8,6 +8,8 @@ import Loop from '../components/Loop'
 import loopHonduras from '../assets/carousel-honduras.png'
 import { PALETTE } from "../App";
 import Apply from "../sections/Apply";
+import date1 from "../assets/date1-honduras.svg"
+import date2 from "../assets/date2-honduras.svg"
 
 function Honduras() {
     localStorage.setItem('edition', 'honduras')
@@ -17,6 +19,8 @@ function Honduras() {
             <Hero color={PALETTE.SKYBLUE} colorButton={PALETTE.SKYBLUE} buttonSrc={"#"} loopSrc={loopHonduras} />
             <Apply />
             <EthToLatam />
+            <Loop reverse content={<img src={date1} />} />
+            <Loop content={<img src={date2} />} />
             <Venue />
             <Faqs />
             <Footer />
