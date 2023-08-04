@@ -31,7 +31,7 @@ const Navbar = ({color, children}) => {
         ) : (
           <MenuBox>
             <Hamburger toggled={isOpen} toggle={setOpen} direction="right" />
-            <Menu open={isOpen} />
+            <Menu open={isOpen} children={children} color={color}/>
           </MenuBox>
         )}
       </Container>

@@ -1,69 +1,13 @@
-import React, { useState, useEffect } from 'react'
-import { FormattedMessage } from 'react-intl'
+import React from 'react'
 import styled from 'styled-components'
 
-import Dropdown from 'react-dropdown'
-import { Link } from 'react-scroll'
 import { PALETTE } from '../App'
 
-const Tabs = ({ mode, color, children }) => {
+const Tabs = ({ mode, color = PALETTE.GREEN, children }) => {
   const edition = localStorage.getItem('edition')
   return (
     <TabsBox mode={mode} color={color}>
       {children}
-      {/* <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
-        <FormattedMessage id="navbar.about" />
-      </Link>
-      <Link
-        to={edition === 'buenos-aires' ? 'speakers' : 'speakersBog'}
-        spy={true}
-        smooth={true}
-        offset={50}
-        duration={500}
-      >
-        <FormattedMessage id="navbar.speakers" />
-      </Link>
-      {edition === 'buenos-aires' && (
-        <>
-          <Link
-            to="sponsors"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            <FormattedMessage id="navbar.sponsors" />
-          </Link>
-        </>
-      )}
-      <Link to="venue" spy={true} smooth={true} offset={50} duration={500}>
-        <FormattedMessage id="navbar.venue" />
-      </Link>
-      <Link
-        to={edition === 'buenos-aires' ? 'agenda' : 'agendaBog'}
-        spy={true}
-        smooth={true}
-        offset={50}
-        duration={500}
-      >
-        <FormattedMessage id="navbar.schedule" />
-      </Link>
-      {edition === 'buenos-aires' && (
-        <>
-          <Link
-            to="theOtherSide"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
-            Side events
-          </Link>
-        </>
-      )}
-      <Link to="faqs" spy={true} smooth={true} offset={50} duration={500}>
-        <FormattedMessage id="navbar.faqs" />
-      </Link> */}
     </TabsBox>
   )
 }
@@ -92,7 +36,7 @@ const TabsBox = styled.div`
     &:hover,
     &:active,
     &:focus {
-      border-bottom: solid 4px ${props => (props.color ?? PALETTE.GREEN)};
+      border-bottom: solid 4px ${props => props.color};
     }
   }
 

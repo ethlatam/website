@@ -22,7 +22,8 @@ const GetTickets = ({ color }) => {
   return (
     <FlagBox>
       <FlagButton
-        className={locale == 'es' ? `active-${color}` : ''}
+        className={locale == 'es' ? 'active' : ''}
+        color={color}
         onClick={() => {
           changeLanguage('es')
         }}
@@ -30,7 +31,8 @@ const GetTickets = ({ color }) => {
         <img src={edition === 'bogota' ? bog : arg} />
       </FlagButton>
       <FlagButton
-        className={locale == 'pt' ? `active-${color}` : ''}
+        className={locale == 'pt' ? 'active' : ''}
+        color={color}
         onClick={() => {
           changeLanguage('pt')
         }}
@@ -38,7 +40,8 @@ const GetTickets = ({ color }) => {
         <img src={brz} />
       </FlagButton>
       <FlagButton
-        className={locale == 'en' ? `active-${color}` : ''}
+        className={locale == 'en' ? 'active' : ''}
+        color={color}
         onClick={() => {
           changeLanguage('en')
         }}
@@ -61,11 +64,8 @@ const FlagButton = styled.button`
   img {
     height: 36px;
   }
-  &.active-skyblue {
-    border-bottom: 4px solid #00BDE5;
-  }
-  &.active-green {
-    border-bottom: 4px solid #80ff9f;
+  &.active {
+    border-bottom: 4px solid ${props => props.color};
   }
 `
 
