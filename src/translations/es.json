@@ -105,12 +105,8 @@
   "honduras.faqs.6.content": "<p>Nuestro objetivo con ETH Latam es fomentar la coordinación descentralizada de una eventos basados ​​en Ethereum. Naturalmente, habrá muchos más eventos, fiestas y actividades durante la semana de ETH Latam.</p><p>Si deseas organizar tu propio side event, completa <a href='https://docs.google.com/forms/d/e/1FAIpQLSeMF0NTey0Dgq8_74e6Ddc9NU2ISTguiHH0_mM8EpYRdhbGIw/viewform'>este formulario</a></p>",
   "honduras.faqs.7.title": "¿Preguntas o ideas?",
   "honduras.faqs.7.content": "¿Tienes alguna pregunta o idea que quisieras sugerir? Envíanos un correo electrónico a <a href='mailto:hello@ethkipu.org'>hello@ethkipu.org</a>",
-  "honduras.apply.text": "Quiero ser parte de  eth latam 2024 como:",
+  "honduras.apply.text": "Quiero ser parte de eth latam 2024 como:",
   "honduras.apply.sponsor": "Sponsor",
-  "honduras.apply.sponsor.href": "#",
   "honduras.apply.speaker": "Speaker",
-  "honduras.apply.speaker.href": "#",
-  "honduras.apply.volunteer": "Voluntario",
-  "honduras.apply.volunteer.href": "#"
-
+  "honduras.apply.volunteer": "Voluntario"
 }

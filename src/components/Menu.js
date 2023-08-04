@@ -10,7 +10,7 @@ const Menu = ({ open, color, children }) => {
       <Tabs mode="small" children={children} color={color}/>
       <Flags />
       <br/>
-      <GetTickets color={"skyblue"} />
+      <GetTickets color={color} />
     </StyledMenu>
   )
 }

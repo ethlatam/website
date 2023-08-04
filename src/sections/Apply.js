@@ -14,13 +14,13 @@ const Apply = () => {
                     <FormattedMessage id="honduras.apply.text" />
                 </Box>
                 <Box>
-                    <ApplyButton color={PALETTE.GREEN} href={"honduras.apply.sponsor.href"} target="_blank">
+                    <ApplyButton color={PALETTE.GREEN} href="https://tally.so/r/wbjd5L" target="_blank">
                         <FormattedMessage id="honduras.apply.sponsor" />
                     </ApplyButton>
-                    <ApplyButton color={PALETTE.PINK} href={"honduras.apply.speaker.href"} target="_blank">
+                    <ApplyButton color={PALETTE.PINK} href="https://tally.so/r/wA2v7D" target="_blank">
                         <FormattedMessage id="honduras.apply.speaker" />
                     </ApplyButton>
-                    <ApplyButton color={PALETTE.SKYBLUE} href={"honduras.apply.volunteer.href"} target="_blank">
+                    <ApplyButton color={PALETTE.SKYBLUE} href="https://tally.so/r/mK51Y8" target="_blank">
                         <FormattedMessage id="honduras.apply.volunteer" />
                     </ApplyButton>
                 </Box>

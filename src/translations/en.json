@@ -93,11 +93,8 @@
   "honduras.faqs.6.content": "<p>Our goal with ETH Latam is to encourage decentralized coordination of an Ethereum-based event series. There will naturally be a lot more events, parties, and activities taking place the week of ETH Latam.</p><p>If you want to host your own side event, we’re happy to help! Just fill out <a href='https://docs.google.com/forms/d/e/1FAIpQLSeMF0NTey0Dgq8_74e6Ddc9NU2ISTguiHH0_mM8EpYRdhbGIw/viewform'>this form</a></p>",
   "honduras.faqs.7.title": "Have questions or ideas?",
   "honduras.faqs.7.content": "Do you have any questions or ideas that you want to suggest? Email us at <a href='mailto:hello@ethkipu.org'>hello@ethkipu.org</a>",
-  "honduras.apply.text": "Quiero ser parte de  eth latam 2023 como:",
+  "honduras.apply.text": "Quiero ser parte de eth latam 2024 como:",
   "honduras.apply.sponsor": "Sponsor",
-  "honduras.apply.sponsor.href": "https://tally.so/r/3xMYXr",
   "honduras.apply.speaker": "Speaker",
-  "honduras.apply.speaker.href": "https://tally.so/r/wA2v7D",
-  "honduras.apply.volunteer": "Voluntario",
-  "honduras.apply.volunteer.href": "https://tally.so/r/mK51Y8"
+  "honduras.apply.volunteer": "Voluntario"
 }
