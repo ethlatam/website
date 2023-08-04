@@ -2,15 +2,15 @@ import React, { useState, useEffect } from 'react'
 import { FormattedMessage } from 'react-intl'
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
+import { PALETTE, ROUTES } from '../App';
 
-const GetTickets = () => {
+const GetTickets = ({ color = PALETTE.GREEN }) => {
   return (
-    <SelectSection>
+    <SelectSection color={color}>
       <div className="dropdown">
         <button className="dropbtn">Editions</button>
         <div className="dropdown-content">
-          <Link to="/buenos-aires">Buenos aires</Link>
-          <Link to="/">Bogotá</Link>
+          {ROUTES.map(route => <Link to={route.path} key={route.id}>{route.description}</Link>)}
         </div>
       </div>
     </SelectSection>
@@ -52,6 +52,7 @@ const SelectSection = styled.div`
     color: #000000;
     border: none;
     cursor: pointer;
+    background-color: ${props => props.color};
   }
 
   .dropdown {
@@ -90,7 +91,7 @@ const SelectSection = styled.div`
   }
 
   .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    opacity: 0.8
   }
 `
 

@@ -1,58 +1,39 @@
 import React from 'react'
-import { FormattedMessage } from 'react-intl'
+import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
 import background from '../assets/hero-line.svg'
 import styled from 'styled-components'
-import Loop from '../components/Loop'
-//import image from '../assets/carousel.png'
 import logo from '../assets/logo.svg'
-import loopArg from '../assets/carousel-ba.png'
-import loopCol from '../assets/carousel-bog.png'
+import Loop from '../components/Loop'
+import { Button } from '../components/Button'
+import Container from '../components/Container'
+import { PALETTE } from '../App'
+import { TextPixel } from '../components/TextPixel'
 
-import colombia from '../assets/flags/co.svg'
-
-const Hero = ({ heroImg }) => {
+const Hero = ({ buttonSrc, loopSrc, color, colorButton }) => {
   const edition = localStorage.getItem('edition')
   return (
     <HeroSection>
       <Container>
         <Box>
-          <p>
+          <TextPixel align={"left"}>
             <FormattedMessage id={edition + '.hero.month'} />
             <br />
             <FormattedMessage id={edition + '.hero.date'} />
             <br />
             <FormattedMessage id={edition + '.hero.year'} />
-          </p>
-
+          </TextPixel>
           <img alt="img" src={logo} />
-          <p className="green">
-            <FormattedMessage id={edition + '.hero.city'} />
+          <TextPixel align={"right"} color={color}>
+            <FormattedHTMLMessage id={edition + '.hero.city'} />
             <br />
-            <FormattedMessage id={edition + '.hero.country'} />
-          </p>
+            <FormattedHTMLMessage id={edition + '.hero.country'} />
+          </TextPixel>
         </Box>
-        {edition === 'buenos-aires' ? (
-          <Button
-            href="https://www.youtube.com/channel/UCYZOSfxEQ4hmocHqjZAy_dw/playlists"
-            target="_blank"
-          >
-            <FormattedMessage id={edition + '.hero.button'} />
-          </Button>
-        ) : (
-          <Button
-            href="https://www.youtube.com/watch?v=gvYaRfQgBKg&list=PLXLZg2ObgxWG0aHsrXBTYJu21Fb0wfoWi"
-            target="_blank"
-          >
-            <FormattedMessage id={edition + '.hero.button'} />
-          </Button>
-        )}
+        <ButtonHero color={colorButton ?? PALETTE.GRAY} href={buttonSrc} target="_blank">
+          <FormattedMessage id={edition + '.hero.button'} />
+        </ButtonHero>
       </Container>
-      <Loop
-        reverse={true}
-        content={
-          <img alt="img" src={edition === 'bogota' ? loopCol : loopArg} />
-        }
-      />
+      <Loop reverse={true} content={<img alt="img" src={loopSrc} />} />
     </HeroSection>
   )
 }
@@ -66,23 +47,6 @@ const HeroSection = styled.section`
   background-position: center bottom;
   padding-bottom: 50px;
   height: auto;
-  p {
-    font-family: 'Pixel';
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 32px;
-    text-transform: uppercase;
-    color: #b3b3b3;
-    &.green {
-      color: #80ff9f;
-    }
-  }
-  .streaming-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
 `
 
 const Country = styled.img`
@@ -94,19 +58,8 @@ const Country = styled.img`
   border-radius: 2px;
 `
 
-const Container = styled.div`
-  max-width: 1440px;
-  padding: 0 40px;
-  @media only screen and (max-width: 700px) {
-    padding: 0 15px 160px 15px;
-  }
-  @media only screen and (min-width: 1440px) {
-    margin: 0 auto;
-  }
-  text-align: center;
-  padding-bottom: 160px;
-`
 const Box = styled.div`
+  color: ${props => props.color};
   padding-top: 160px;
   padding-bottom: 115px;
   display: flex;
@@ -124,21 +77,7 @@ const Box = styled.div`
   }
 `
 
-const Button = styled.a`
-  background: transparent;
-  font-family: 'Pixel';
-  margin: 72px auto 100px auto;
-  text-decoration: none;
-  padding: 18px 36px;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 24px;
-  text-transform: uppercase;
-  color: #faf7f5;
-  border: 3px solid #faf7f5;
-  box-sizing: border-box;
-  box-shadow: -6px 6px 0px 1px #faf7f5;
-  display: block;
+const ButtonHero = styled(Button)`
   width: 395px;
   height: 61px;
   @media only screen and (max-width: 870px) {

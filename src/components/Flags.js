@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import styled from 'styled-components'
 import arg from '../assets/arg.svg'
 import brz from '../assets/brz.svg'
 import bog from '../assets/colombia.svg'
 import eeuu from '../assets/eeuu.svg'
 
-const GetTickets = () => {
+const GetTickets = ({ color }) => {
   const changeLanguage = lang => {
     if (typeof window.localStorage !== 'undefined') {
       localStorage.setItem('locale', lang)
@@ -23,6 +23,7 @@ const GetTickets = () => {
     <FlagBox>
       <FlagButton
         className={locale == 'es' ? 'active' : ''}
+        color={color}
         onClick={() => {
           changeLanguage('es')
         }}
@@ -30,7 +31,8 @@ const GetTickets = () => {
         <img src={edition === 'bogota' ? bog : arg} />
       </FlagButton>
       <FlagButton
-        className={locale == 'pt'  ? 'active' : ''}
+        className={locale == 'pt' ? 'active' : ''}
+        color={color}
         onClick={() => {
           changeLanguage('pt')
         }}
@@ -38,7 +40,8 @@ const GetTickets = () => {
         <img src={brz} />
       </FlagButton>
       <FlagButton
-        className={locale == 'en'  ? 'active' : ''}
+        className={locale == 'en' ? 'active' : ''}
+        color={color}
         onClick={() => {
           changeLanguage('en')
         }}
@@ -62,7 +65,7 @@ const FlagButton = styled.button`
     height: 36px;
   }
   &.active {
-    border-bottom: 4px solid #80ff9f;
+    border-bottom: 4px solid ${props => props.color};
   }
 `
 

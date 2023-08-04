@@ -4,13 +4,13 @@ import GetTickets from './GetTickets'
 import Flags from './Flags'
 import Tabs from './Tabs'
 
-const Menu = ({ open }) => {
+const Menu = ({ open, color, children }) => {
   return (
     <StyledMenu open={open}>
-      <Tabs mode="small"/>
+      <Tabs mode="small" children={children} color={color}/>
       <Flags />
       <br/>
-      <GetTickets />
+      <GetTickets color={color} />
     </StyledMenu>
   )
 }

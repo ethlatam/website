@@ -5,17 +5,21 @@ import telegram from '../assets/telegram.svg'
 import instagram from '../assets/instagram.svg'
 import discord from '../assets/discord.svg'
 import roadToDevcon from '../assets/roadToDevcon.svg'
+import { PALETTE } from '../App'
 
-const Footer = () => {
+const Footer = ({ withoutImage = false, color = PALETTE.GREEN }) => {
   const [width, setWidth] = useState(window.innerWidth)
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
   }, [])
   const medium = 700
   return (
-    <FooterSection>
-      <Container>
-        <a href="https://devcon.org/" target="_blank"><img src={roadToDevcon} /></a>
+    <FooterSection color={color}>
+      <Container withoutImage={withoutImage} >
+        {
+          !withoutImage && (<a href="https://devcon.org/" target="_blank"><img src={roadToDevcon} /></a>)
+        }
+
         <div>
           <div>
             <a href="https://twitter.com/ethlatam" target="_blank">
@@ -44,14 +48,14 @@ const FooterSection = styled.section`
   width: 100%;
   position: relative;
   text-align: center;
-  border-bottom: solid 8px #80ff9f;
+  border-bottom: solid 8px ${props => props.color};
 `
 
 const Container = styled.div`
   max-width: 1440px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content:  ${props => props.withoutImage ? 'center' : 'space-between'};
   align-items: center;
   padding: 24px 40px 0 40px;
   gap: 16px;

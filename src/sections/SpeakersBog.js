@@ -94,7 +94,7 @@ const Speakers = () => {
   }, [])
   const medium = 700
   return (
-    <SpeakersSection id="speakersBog">
+    <SpeakersSection id="speakers">
       <Container>
         <h1>
           <span className="pixel">S</span>

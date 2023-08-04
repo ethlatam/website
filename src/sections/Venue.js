@@ -4,15 +4,8 @@ import { FormattedMessage, FormattedHTMLMessage } from 'react-intl'
 import location from '../assets/location.svg'
 import background from '../assets/venue-background.svg'
 import backgroundSmall from '../assets/venue-small-background.png'
-import venue from '../assets/venue.png'
-import venueLarge from '../assets/venue-large.png'
-import venueSmall from '../assets/venue-small.png'
 
-import venueBog from '../assets/venue-bogota.png'
-import venueLargeBog from '../assets/venue-large-bogota.png'
-import venueSmallBog from '../assets/venue-small-bogota.png'
-
-export default function Venue() {
+export default function Venue({locationHref, venueSmSrc, venueLgSrc}) {
   const [width, setWidth] = useState(window.innerWidth)
   const edition = localStorage.getItem('edition')
   useEffect(() => {
@@ -33,14 +26,13 @@ export default function Venue() {
           <h2>
             <FormattedMessage id={edition + ".venue.address"} />
           </h2>
-          {width < medium && <img className="venue" src={edition === 'bogota' ? venueSmallBog : venueSmall} />}
-          <a href={edition === 'bogota' ? "https://agora-bogota.com/" : "https://www.cecbuenosaires.com.ar/"} target="_blank">
+          {width < medium && <img className="venue" src={venueSmSrc} />}
+          <a href={locationHref} target="_blank">
             <FormattedMessage id="venue.link" />
           </a>
         </Box>
         <div>
-        { edition === 'bogota' && width >= medium && <img src={width >= large ? venueLargeBog : venueBog} /> }
-        { edition === 'buenos-aires' && width >= medium && <img src={width >= large ? venueLarge : venue} /> }
+        { width >= medium && <img src={venueLgSrc} /> }
         </div>
       </Container>
     </VenueSection>
