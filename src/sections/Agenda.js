@@ -105,7 +105,7 @@ const Schedule = () => {
   }
 
   return (
-    <ScheduleSection id="agendaBog" locale={locale}>
+    <ScheduleSection id="agenda" locale={locale}>
       <Container>
         <Head>
           <h1>

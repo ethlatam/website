@@ -11,12 +11,21 @@ import Apply from "../sections/Apply";
 import date1 from "../assets/date1-honduras.svg"
 import date2 from "../assets/date2-honduras.svg"
 import venueSmSrc from '../assets/venue-honduras.png'
+import { Link } from "react-scroll";
+import { FormattedMessage } from "react-intl";
 
 function Honduras() {
     localStorage.setItem('edition', 'honduras')
     return (
         <div className="App">
-            <Navbar color={'skyblue'} />
+            <Navbar color={PALETTE.SKYBLUE} >
+                <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+                    <FormattedMessage id="navbar.about" />
+                </Link>
+                <Link to="venue" spy={true} smooth={true} offset={50} duration={500}>
+                    <FormattedMessage id="navbar.venue" />
+                </Link>
+            </Navbar>
             <Hero color={PALETTE.SKYBLUE} colorButton={PALETTE.SKYBLUE} buttonSrc={"#"} loopSrc={loopHonduras} />
             <Apply />
             <EthToLatam />
@@ -27,8 +36,7 @@ function Honduras() {
                 venueSmSrc={venueSmSrc}
                 venueLgSrc={venueSmSrc}
             />
-            <Faqs />
-            <Footer />
+            <Footer withoutImage={true} color={PALETTE.SKYBLUE} />
         </div>
     )
 }

@@ -5,7 +5,7 @@ import { FormattedMessage } from "react-intl";
 import { PALETTE } from "../App";
 
 
-const Apply = (props) => {
+const Apply = () => {
     const edition = localStorage.getItem('edition')
     return (
         <ApplySection>
@@ -38,7 +38,7 @@ const ApplyContainer = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 50px;
     @media only screen and (max-width: 915px) {

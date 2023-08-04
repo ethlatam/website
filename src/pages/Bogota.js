@@ -15,6 +15,8 @@ import loopCol from '../assets/carousel-bog.png'
 import { PALETTE } from "../App";
 import venueSmSrc from '../assets/venue-small-bogota.png'
 import venueLgSrc from '../assets/venue-large-bogota.png'
+import { FormattedMessage } from "react-intl";
+import { Link } from 'react-scroll'
 
 
 function Bogota() {
@@ -22,7 +24,36 @@ function Bogota() {
 
     return (
         <div className="App">
-            <Navbar color={'green'} />
+            <Navbar color={PALETTE.GREEN} >
+                <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+                    <FormattedMessage id="navbar.about" />
+                </Link>
+                <Link
+                    to={'speakers'}
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                >
+                    <FormattedMessage id="navbar.speakers" />
+                </Link>
+                <Link to="venue" spy={true} smooth={true} offset={50} duration={500}>
+                    <FormattedMessage id="navbar.venue" />
+                </Link>
+                <Link
+                    to={'agenda'}
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                >
+                    <FormattedMessage id="navbar.schedule" />
+                </Link>
+                <Link to="faqs" spy={true} smooth={true} offset={50} duration={500}>
+                    <FormattedMessage id="navbar.faqs" />
+                </Link>
+            </Navbar>
+
             <Hero color={PALETTE.GREEN} colorButton={PALETTE.GRAY} buttonSrc={"https://www.youtube.com/watch?v=gvYaRfQgBKg&list=PLXLZg2ObgxWG0aHsrXBTYJu21Fb0wfoWi"} loopSrc={loopCol} />
             <EthToLatam />
             <Loop reverse content={<img src={date1bog} />} />

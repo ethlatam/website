@@ -16,12 +16,60 @@ import loopArg from '../assets/carousel-ba.png'
 import { PALETTE } from "../App";
 import venueSmSrc from '../assets/venue-small.png'
 import venueLgSrc from '../assets/venue-large.png'
+import { Link } from "react-scroll";
+import { FormattedMessage } from "react-intl";
 
 function BuenosAires() {
     localStorage.setItem('edition', 'buenos-aires')
     return (
         <div className="App">
-            <Navbar color={'green'} />
+            <Navbar color={PALETTE.GREEN} >
+                <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+                    <FormattedMessage id="navbar.about" />
+                </Link>
+                <Link
+                    to={'speakers'}
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                >
+                    <FormattedMessage id="navbar.speakers" />
+                </Link>
+                <Link
+                    to="sponsors"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                >
+                    <FormattedMessage id="navbar.sponsors" />
+                </Link>
+                <Link to="venue" spy={true} smooth={true} offset={50} duration={500}>
+                    <FormattedMessage id="navbar.venue" />
+                </Link>
+                <Link
+                    to={'agenda'}
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                >
+                    <FormattedMessage id="navbar.schedule" />
+                </Link>
+                <Link
+                    to="theOtherSide"
+                    spy={true}
+                    smooth={true}
+                    offset={50}
+                    duration={500}
+                >
+                    Side events
+                </Link>
+                <Link to="faqs" spy={true} smooth={true} offset={50} duration={500}>
+                    <FormattedMessage id="navbar.faqs" />
+                </Link>
+            </Navbar>
             <Hero color={PALETTE.GREEN} colorButton={PALETTE.GRAY} buttonSrc={"https://www.youtube.com/channel/UCYZOSfxEQ4hmocHqjZAy_dw/playlists"} loopSrc={loopArg} />
             <EthToLatam />
             <Loop reverse content={<img src={date1} />} />

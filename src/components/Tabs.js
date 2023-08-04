@@ -6,34 +6,12 @@ import Dropdown from 'react-dropdown'
 import { Link } from 'react-scroll'
 import { PALETTE } from '../App'
 
-const Tabs = ({ mode, color }) => {
-  const [isDropDownOpen, setIsDropDownOpen] = useState(false)
-  const [subDropDown, setSubDropDown] = useState(false)
-  const showDropDown = () => {
-    setIsDropDownOpen(true)
-  }
-
-  const hideDropDown = () => {
-    if (subDropDown) {
-      setIsDropDownOpen(true)
-    } else {
-      setIsDropDownOpen(false)
-    }
-  }
-
-  const _onSelect = option => {
-    console.log('You selected ', option.label)
-    this.setState({ selected: option })
-  }
-  const setAllStateToFalse = () => {
-    setIsDropDownOpen(false)
-    setSubDropDown(false)
-  }
-
+const Tabs = ({ mode, color, children }) => {
   const edition = localStorage.getItem('edition')
   return (
     <TabsBox mode={mode} color={color}>
-      <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
+      {children}
+      {/* <Link to="about" spy={true} smooth={true} offset={50} duration={500}>
         <FormattedMessage id="navbar.about" />
       </Link>
       <Link
@@ -85,7 +63,7 @@ const Tabs = ({ mode, color }) => {
       )}
       <Link to="faqs" spy={true} smooth={true} offset={50} duration={500}>
         <FormattedMessage id="navbar.faqs" />
-      </Link>
+      </Link> */}
     </TabsBox>
   )
 }
