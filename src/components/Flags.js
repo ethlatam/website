@@ -17,7 +17,7 @@ const GetTickets = ({ color }) => {
   const locale =
     typeof window.localStorage !== 'undefined'
       ? localStorage.getItem('locale')
-      : 'en'
+      : 'es'
 
   return (
     <FlagBox>
@@ -30,7 +30,7 @@ const GetTickets = ({ color }) => {
       >
         <img src={edition === 'bogota' ? bog : arg} />
       </FlagButton>
-      <FlagButton
+      {/*<FlagButton
         className={locale == 'pt' ? 'active' : ''}
         color={color}
         onClick={() => {
@@ -47,33 +47,33 @@ const GetTickets = ({ color }) => {
         }}
       >
         <img src={eeuu} />
-      </FlagButton>
+      </FlagButton> */}
     </FlagBox>
   )
 }
 
 const FlagButton = styled.button`
-  border: 0px solid;
-  background: transparent;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  padding: 0;
-  border-bottom: 4px solid transparent;
-  img {
-    height: 36px;
+      border: 0px solid;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      padding: 0;
+      border-bottom: 4px solid transparent;
+      img {
+        height: 36px;
   }
-  &.active {
-    border-bottom: 4px solid ${props => props.color};
+      &.active {
+        border - bottom: 4px solid ${props => props.color};
   }
-`
+      `
 
 const FlagBox = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-`
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto;
+      `
 
 export default GetTickets
