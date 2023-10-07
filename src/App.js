@@ -1,27 +1,11 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import { IntlProvider } from 'react-intl'
 import { ThemeProvider } from 'styled-components'
-import messages_en from './translations/en.json'
-import messages_es from './translations/es.json'
-import messages_pt from './translations/pt.json'
 import Bogota from './pages/Bogota'
 import Honduras from './pages/Honduras'
 import BuenosAires from './pages/BuenosAires'
 import { EditionContextProvider } from './context/EditionContext'
-
-
-const messages = {
-  es: messages_es,
-  en: messages_en,
-  pt: messages_pt,
-}
-
-let defaultLanguage = 'es'
-const locale =
-  typeof window.localStorage !== 'undefined'
-    ? localStorage.getItem('locale')
-    : 'es'
+import { LanguageProvider } from './context/LanguageContext';
 
 export const PALETTE = {
   GREEN: "#80ff9f",
@@ -29,7 +13,6 @@ export const PALETTE = {
   PINK: "#E573E5",
   GRAY: "#FAF7F5"
 }
-
 
 const theme = {
   colors: {
@@ -44,10 +27,7 @@ function App() {
   return (
     <div className="App">
       <EditionContextProvider>
-        <IntlProvider
-          locale={locale || defaultLanguage}
-          messages={messages[locale || defaultLanguage]}
-        >
+        <LanguageProvider>
           <ThemeProvider theme={theme} >
             <Routes>
               <Route path="/" element={<Honduras />} />
@@ -56,7 +36,7 @@ function App() {
               <Route path="/honduras" element={<Honduras />} />
             </Routes>
           </ThemeProvider>
-        </IntlProvider>
+        </LanguageProvider>
       </EditionContextProvider>
     </div>
   )

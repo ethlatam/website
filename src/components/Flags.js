@@ -6,21 +6,13 @@ import colombiaFlag from '../assets/colombia.svg'
 import eeuu from '../assets/eeuu.svg'
 import { useLocation } from 'react-router-dom'
 import EDITIONS from '../editions'
-import { useIntl } from 'react-intl'
+import { useLanguage } from '../context/LanguageContext'
 
 
 const GetTickets = ({ color }) => {
-  const changeLanguage = lang => {
-    if (typeof window.localStorage !== 'undefined') {
-      localStorage.setItem('locale', lang)
-    }
-    window.location.reload()
-  }
+  const { locale, changeLanguage } = useLanguage();
   const location = useLocation();
   const edition = location?.pathname.substring(1)
-
-  const intl = useIntl();
-  const locale = intl.locale;
 
   return (
     <FlagBox>
