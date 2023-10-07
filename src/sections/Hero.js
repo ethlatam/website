@@ -9,8 +9,7 @@ import Container from '../components/Container'
 import { PALETTE } from '../App'
 import { TextPixel } from '../components/TextPixel'
 
-const Hero = ({ buttonSrc, loopSrc, color, colorButton }) => {
-  const edition = localStorage.getItem('edition')
+const Hero = ({ buttonSrc, loopSrc, color, colorButton, edition }) => {
   return (
     <HeroSection>
       <Container>
@@ -47,15 +46,6 @@ const HeroSection = styled.section`
   background-position: center bottom;
   padding-bottom: 50px;
   height: auto;
-`
-
-const Country = styled.img`
-  height: 15px !important;
-  display: inline;
-  width: 24px !important;
-  margin: 0 0 0 10px !important;
-  padding: 0 !important;
-  border-radius: 2px;
 `
 
 const Box = styled.div`

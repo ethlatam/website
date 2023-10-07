@@ -17,11 +17,10 @@ import venueSmSrc from '../assets/venue-small-bogota.png'
 import venueLgSrc from '../assets/venue-large-bogota.png'
 import { FormattedMessage } from "react-intl";
 import { Link } from 'react-scroll'
+import EDITIONS from "../editions";
 
 
 function Bogota() {
-    localStorage.setItem('edition', 'bogota')
-
     return (
         <div className="App">
             <Navbar color={PALETTE.GREEN} >
@@ -54,10 +53,16 @@ function Bogota() {
                 </Link>
             </Navbar>
 
-            <Hero color={PALETTE.GREEN} colorButton={PALETTE.GRAY} buttonSrc={"https://www.youtube.com/watch?v=gvYaRfQgBKg&list=PLXLZg2ObgxWG0aHsrXBTYJu21Fb0wfoWi"} loopSrc={loopCol} />
+            <Hero
+                color={PALETTE.GREEN}
+                colorButton={PALETTE.GRAY}
+                buttonSrc={"https://www.youtube.com/watch?v=gvYaRfQgBKg&list=PLXLZg2ObgxWG0aHsrXBTYJu21Fb0wfoWi"}
+                loopSrc={loopCol}
+                edition={EDITIONS.BOGOTA}
+            />
             <EthToLatam />
-            <Loop reverse content={<img src={date1bog} />} />
-            <Loop content={<img src={date2bog} />} />
+            <Loop reverse content={<img src={date1bog} alt="Smothing Bogota" />} />
+            <Loop content={<img src={date2bog} alt="Smothing Bogota" />} />
             <SpeakersBog />
             <SponsorsBog />
             <Agenda />
@@ -65,6 +70,7 @@ function Bogota() {
                 locationHref={"https://agora-bogota.com/"}
                 venueSmSrc={venueSmSrc}
                 venueLgSrc={venueLgSrc}
+                edition={EDITIONS.BOGOTA}
             />
             <Faqs />
             <Footer />

@@ -18,9 +18,9 @@ import venueSmSrc from '../assets/venue-small.png'
 import venueLgSrc from '../assets/venue-large.png'
 import { Link } from "react-scroll";
 import { FormattedMessage } from "react-intl";
+import EDITIONS from "../editions";
 
 function BuenosAires() {
-    localStorage.setItem('edition', 'buenos-aires')
     return (
         <div className="App">
             <Navbar color={PALETTE.GREEN} >
@@ -70,10 +70,15 @@ function BuenosAires() {
                     <FormattedMessage id="navbar.faqs" />
                 </Link>
             </Navbar>
-            <Hero color={PALETTE.GREEN} colorButton={PALETTE.GRAY} buttonSrc={"https://www.youtube.com/channel/UCYZOSfxEQ4hmocHqjZAy_dw/playlists"} loopSrc={loopArg} />
+            <Hero
+                color={PALETTE.GREEN}
+                colorButton={PALETTE.GRAY}
+                buttonSrc={"https://www.youtube.com/channel/UCYZOSfxEQ4hmocHqjZAy_dw/playlists"}
+                loopSrc={loopArg}
+                edition={EDITIONS.BUENOSAIRES} />
             <EthToLatam />
-            <Loop reverse content={<img src={date1} />} />
-            <Loop content={<img src={date2} />} />
+            <Loop reverse content={<img src={date1} alt="smothing Buenos Aires" />} />
+            <Loop content={<img src={date2} alt="smothing Buenos Aires" />} />
             <Speakers />
             <Sponsors />
             <MediaPartners />
@@ -81,6 +86,7 @@ function BuenosAires() {
                 locationHref={"https://www.cecbuenosaires.com.ar/"}
                 venueSmSrc={venueSmSrc}
                 venueLgSrc={venueLgSrc}
+                edition={EDITIONS.BUENOSAIRES}
             />
             <Schedule />
             <TheOtherSide />

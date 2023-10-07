@@ -2,15 +2,25 @@ import React, { useState, useEffect } from 'react'
 import { FormattedMessage } from 'react-intl'
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
-import { PALETTE, ROUTES } from '../App';
+import { PALETTE } from '../App';
+import { ROUTES } from '../routes';
+import useEdition from '../hooks/useEdition';
+import useSetEdition from '../hooks/useSetEditions';
 
-const GetTickets = ({ color = PALETTE.GREEN }) => {
+const Editions = ({ color = PALETTE.GREEN }) => {
+
+  const setEdition = useSetEdition()
+
+  const handleClick = (edition) => {
+    setEdition(edition);
+  };
+
   return (
     <SelectSection color={color}>
       <div className="dropdown">
         <button className="dropbtn">Editions</button>
         <div className="dropdown-content">
-          {ROUTES.map(route => <Link to={route.path} key={route.id}>{route.description}</Link>)}
+          {ROUTES.map(route => <Link to={route.path} key={route.id} onClick={() => handleClick(route.edition)}>{route.description}</Link>)}
         </div>
       </div>
     </SelectSection>
@@ -95,4 +105,4 @@ const SelectSection = styled.div`
   }
 `
 
-export default GetTickets
+export default Editions

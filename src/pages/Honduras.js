@@ -1,7 +1,6 @@
 import Navbar from "../sections/Navbar";
 import Hero from '../sections/Hero'
 import EthToLatam from '../sections/EthToLatam'
-import Faqs from '../sections/Faqs'
 import Venue from '../sections/Venue'
 import Footer from '../sections/Footer'
 import Loop from '../components/Loop'
@@ -13,9 +12,9 @@ import date2 from "../assets/date2-honduras.svg"
 import venueSmSrc from '../assets/venue-honduras.png'
 import { Link } from "react-scroll";
 import { FormattedMessage } from "react-intl";
+import EDITIONS from "../editions";
 
 function Honduras() {
-    localStorage.setItem('edition', 'honduras')
     return (
         <div className="App">
             <Navbar color={PALETTE.SKYBLUE} >
@@ -26,15 +25,16 @@ function Honduras() {
                     <FormattedMessage id="navbar.venue" />
                 </Link>
             </Navbar>
-            <Hero color={PALETTE.SKYBLUE} colorButton={PALETTE.SKYBLUE} buttonSrc={"#"} loopSrc={loopHonduras} />
+            <Hero color={PALETTE.SKYBLUE} colorButton={PALETTE.SKYBLUE} buttonSrc={"#"} loopSrc={loopHonduras} edition={EDITIONS.HONDURAS} />
             <Apply />
             <EthToLatam />
-            <Loop reverse content={<img src={date1} />} />
-            <Loop content={<img src={date2} />} />
+            <Loop reverse content={<img src={date1} alt="smothing honduras" />} />
+            <Loop content={<img src={date2} alt="smothing honduras" />} />
             <Venue
-                locationHref={"https://www.cecbuenosaires.com.ar/"}
+                locationHref={"https://copantl.com/"}
                 venueSmSrc={venueSmSrc}
                 venueLgSrc={venueSmSrc}
+                edition={EDITIONS.HONDURAS}
             />
             <Footer withoutImage={true} color={PALETTE.SKYBLUE} />
         </div>

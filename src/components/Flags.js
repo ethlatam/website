@@ -1,9 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import arg from '../assets/arg.svg'
-import brz from '../assets/brz.svg'
-import bog from '../assets/colombia.svg'
+import argentinaFlag from '../assets/arg.svg'
+import brazilFlag from '../assets/brz.svg'
+import colombiaFlag from '../assets/colombia.svg'
 import eeuu from '../assets/eeuu.svg'
+import { useLocation } from 'react-router-dom'
+import EDITIONS from '../editions'
+import { useIntl } from 'react-intl'
+
 
 const GetTickets = ({ color }) => {
   const changeLanguage = lang => {
@@ -12,42 +16,43 @@ const GetTickets = ({ color }) => {
     }
     window.location.reload()
   }
-  const edition = localStorage.getItem('edition')
+  const location = useLocation();
+  const edition = location?.pathname.substring(1)
 
-  const locale =
-    typeof window.localStorage !== 'undefined'
-      ? localStorage.getItem('locale')
-      : 'es'
+  const intl = useIntl();
+  const locale = intl.locale;
 
   return (
     <FlagBox>
       <FlagButton
-        className={locale == 'es' ? 'active' : ''}
+        className={locale === 'es' ? 'active' : ''}
         color={color}
         onClick={() => {
           changeLanguage('es')
         }}
       >
-        <img src={edition === 'bogota' ? bog : arg} />
+        {edition === EDITIONS.BOGOTA && (<img src={colombiaFlag} alt="Colombia Flag" />)}
+        {(edition === EDITIONS.HONDURAS || edition === '') && (<img src={argentinaFlag} alt="Argentina Flag" />)}
+        {edition === EDITIONS.BUENOSAIRES && (<img src={argentinaFlag} alt="Argentina Flag" />)}
       </FlagButton>
-      {/*<FlagButton
-        className={locale == 'pt' ? 'active' : ''}
+      <FlagButton
+        className={locale === 'pt' ? 'active' : ''}
         color={color}
         onClick={() => {
           changeLanguage('pt')
         }}
       >
-        <img src={brz} />
+        <img src={brazilFlag} alt="Brazil Flag" />
       </FlagButton>
       <FlagButton
-        className={locale == 'en' ? 'active' : ''}
+        className={locale === 'en' ? 'active' : ''}
         color={color}
         onClick={() => {
           changeLanguage('en')
         }}
       >
-        <img src={eeuu} />
-      </FlagButton> */}
+        <img src={eeuu} alt="USA Flag" />
+      </FlagButton>
     </FlagBox>
   )
 }
@@ -65,7 +70,7 @@ const FlagButton = styled.button`
         height: 36px;
   }
       &.active {
-        border - bottom: 4px solid ${props => props.color};
+        border-bottom: 4px solid ${props => props.color};
   }
       `
 

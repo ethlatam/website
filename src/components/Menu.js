@@ -1,16 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
-import GetTickets from './GetTickets'
+import Editions from './Editions'
 import Flags from './Flags'
 import Tabs from './Tabs'
 
 const Menu = ({ open, color, children }) => {
   return (
     <StyledMenu open={open}>
-      <Tabs mode="small" children={children} color={color}/>
+      <Tabs mode="small" children={children} color={color} />
       <Flags />
-      <br/>
-      <GetTickets color={color} />
+      <br />
+      <Editions color={color} />
     </StyledMenu>
   )
 }

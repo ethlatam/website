@@ -5,34 +5,32 @@ import location from '../assets/location.svg'
 import background from '../assets/venue-background.svg'
 import backgroundSmall from '../assets/venue-small-background.png'
 
-export default function Venue({locationHref, venueSmSrc, venueLgSrc}) {
+export default function Venue({ locationHref, venueSmSrc, venueLgSrc, edition }) {
   const [width, setWidth] = useState(window.innerWidth)
-  const edition = localStorage.getItem('edition')
+
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
   }, [])
-  const [isOpen, setOpen] = useState(false)
-  const medium = 700
-  const large = 1445
 
+  const medium = 700
   return (
     <VenueSection id="venue">
       <Container>
         <Box>
-          <img src={location} />
+          <img src={location} alt='location venue background'/>
           <h1>
-            <FormattedHTMLMessage id={edition + ".venue.title"}/>
+            <FormattedHTMLMessage id={edition + ".venue.title"} />
           </h1>
           <h2>
             <FormattedMessage id={edition + ".venue.address"} />
           </h2>
-          {width < medium && <img className="venue" src={venueSmSrc} />}
-          <a href={locationHref} target="_blank">
+          {width < medium && <img className="venue" src={venueSmSrc} alt='venue'/>}
+          <a href={locationHref} target="_blank" rel="noreferrer" >
             <FormattedMessage id="venue.link" />
           </a>
         </Box>
         <div>
-        { width >= medium && <img src={venueLgSrc} /> }
+          {width >= medium && <img src={venueLgSrc} alt='venue'/>}
         </div>
       </Container>
     </VenueSection>
