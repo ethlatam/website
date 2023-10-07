@@ -29,12 +29,10 @@ import bitso from '../assets/sponsors2/bitso.svg'
 import livepeer from '../assets/sponsors2/livepeer.svg'
 import connext from '../assets/sponsors2/connext.svg'
 import polygon from '../assets/sponsors2/polygon.svg'
+import { useLanguage } from '../context/LanguageContext'
 
 const Sponsors = () => {
-  const locale =
-    typeof window.localStorage !== 'undefined'
-      ? localStorage.getItem('locale')
-      : 'en'
+  const { locale } = useLanguage()
   const [width, setWidth] = useState(window.innerWidth)
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))

@@ -16,7 +16,7 @@ export function LanguageProvider({ children }) {
         es: messages_es,
         en: messages_en,
         pt: messages_pt,
-      }
+    }
 
     const [locale, setLocale] = useState('es');
 

@@ -76,7 +76,7 @@ function BuenosAires() {
                 buttonSrc={"https://www.youtube.com/channel/UCYZOSfxEQ4hmocHqjZAy_dw/playlists"}
                 loopSrc={loopArg}
                 edition={EDITIONS.BUENOSAIRES} />
-            <EthToLatam />
+            <EthToLatam edition={EDITIONS.BUENOSAIRES} />
             <Loop reverse content={<img src={date1} alt="smothing Buenos Aires" />} />
             <Loop content={<img src={date2} alt="smothing Buenos Aires" />} />
             <Speakers />
@@ -90,7 +90,7 @@ function BuenosAires() {
             />
             <Schedule />
             <TheOtherSide />
-            <Faqs />
+            <Faqs edition={EDITIONS.BOGOTA} />
             <Footer />
         </div>
     )

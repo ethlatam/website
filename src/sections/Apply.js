@@ -6,7 +6,6 @@ import { PALETTE } from "../App";
 
 
 const Apply = () => {
-    const edition = localStorage.getItem('edition')
     return (
         <ApplySection>
             <ApplyContainer>

@@ -60,7 +60,7 @@ function Bogota() {
                 loopSrc={loopCol}
                 edition={EDITIONS.BOGOTA}
             />
-            <EthToLatam />
+            <EthToLatam edition={EDITIONS.BOGOTA} />
             <Loop reverse content={<img src={date1bog} alt="Smothing Bogota" />} />
             <Loop content={<img src={date2bog} alt="Smothing Bogota" />} />
             <SpeakersBog />
@@ -72,7 +72,7 @@ function Bogota() {
                 venueLgSrc={venueLgSrc}
                 edition={EDITIONS.BOGOTA}
             />
-            <Faqs />
+            <Faqs edition={EDITIONS.BOGOTA} />
             <Footer />
         </div>
     )

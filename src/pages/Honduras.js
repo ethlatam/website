@@ -27,7 +27,7 @@ function Honduras() {
             </Navbar>
             <Hero color={PALETTE.SKYBLUE} colorButton={PALETTE.SKYBLUE} buttonSrc={"#"} loopSrc={loopHonduras} edition={EDITIONS.HONDURAS} />
             <Apply />
-            <EthToLatam />
+            <EthToLatam edition={EDITIONS.HONDURAS} />
             <Loop reverse content={<img src={date1} alt="smothing honduras" />} />
             <Loop content={<img src={date2} alt="smothing honduras" />} />
             <Venue

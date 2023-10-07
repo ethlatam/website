@@ -4,7 +4,6 @@ import { ThemeProvider } from 'styled-components'
 import Bogota from './pages/Bogota'
 import Honduras from './pages/Honduras'
 import BuenosAires from './pages/BuenosAires'
-import { EditionContextProvider } from './context/EditionContext'
 import { LanguageProvider } from './context/LanguageContext';
 
 export const PALETTE = {
@@ -26,18 +25,16 @@ const theme = {
 function App() {
   return (
     <div className="App">
-      <EditionContextProvider>
-        <LanguageProvider>
-          <ThemeProvider theme={theme} >
-            <Routes>
-              <Route path="/" element={<Honduras />} />
-              <Route path="/bogota" element={<Bogota />} />
-              <Route path="/buenos-aires" element={<BuenosAires />} />
-              <Route path="/honduras" element={<Honduras />} />
-            </Routes>
-          </ThemeProvider>
-        </LanguageProvider>
-      </EditionContextProvider>
+      <LanguageProvider>
+        <ThemeProvider theme={theme} >
+          <Routes>
+            <Route path="/" element={<Honduras />} />
+            <Route path="/bogota" element={<Bogota />} />
+            <Route path="/buenos-aires" element={<BuenosAires />} />
+            <Route path="/honduras" element={<Honduras />} />
+          </Routes>
+        </ThemeProvider>
+      </LanguageProvider>
     </div>
   )
 }

@@ -8,12 +8,10 @@ import opt from '../assets/sponsorsBog/opt.svg'
 import optEsp from '../assets/sponsorsBog/OPESP.svg'
 import layer from '../assets/sponsorsBog/layer.png'
 import livepeer from '../assets/sponsorsBog/livepeer.svg'
+import { useLanguage } from '../context/LanguageContext'
 
 const SponsorsBog = () => {
-  const locale =
-    typeof window.localStorage !== 'undefined'
-      ? localStorage.getItem('locale')
-      : 'en'
+  const { locale } = useLanguage()
   const [width, setWidth] = useState(window.innerWidth)
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
