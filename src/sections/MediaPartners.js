@@ -6,12 +6,10 @@ import defiant from '../assets/media/defiant.svg'
 import bankless from '../assets/media/bankless.svg'
 import rekt from '../assets/media/rekt.svg'
 import platzi from '../assets/media/platzi.svg'
+import { useLanguage } from '../context/LanguageContext'
 
 const MediaPartner = () => {
-  const locale =
-    typeof window.localStorage !== 'undefined'
-      ? localStorage.getItem('locale')
-      : 'en'
+  const { locale } = useLanguage();
   const [width, setWidth] = useState(window.innerWidth)
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))

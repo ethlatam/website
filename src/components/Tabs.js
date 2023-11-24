@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import { PALETTE } from '../App'
 
 const Tabs = ({ mode, color = PALETTE.GREEN, children }) => {
-  const edition = localStorage.getItem('edition')
   return (
     <TabsBox mode={mode} color={color}>
       {children}

@@ -5,10 +5,10 @@ import Hamburger from 'hamburger-react'
 import Menu from '../components/Menu'
 import Tabs from '../components/Tabs'
 import Flags from '../components/Flags'
-import GetTickets from '../components/GetTickets'
+import Editions from '../components/Editions'
 import logo from '../assets/navbar-logo.svg'
 
-const Navbar = ({color, children}) => {
+const Navbar = ({ color, children }) => {
   const [width, setWidth] = useState(window.innerWidth)
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
@@ -22,16 +22,16 @@ const Navbar = ({color, children}) => {
         <img alt="img" src={logo} />
         {width >= medium ? (
           <>
-            <Tabs mode="large" color={color} children={children}/>
+            <Tabs mode="large" color={color} children={children} />
             <div className="right">
               <Flags color={color} />
-              <GetTickets color={color} />
+              <Editions color={color} />
             </div>
           </>
         ) : (
           <MenuBox>
             <Hamburger toggled={isOpen} toggle={setOpen} direction="right" />
-            <Menu open={isOpen} children={children} color={color}/>
+            <Menu open={isOpen} children={children} color={color} />
           </MenuBox>
         )}
       </Container>
