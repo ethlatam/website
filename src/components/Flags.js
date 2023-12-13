@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import argentinaFlag from '../assets/arg.svg'
-import brazilFlag from '../assets/brz.svg'
+import hondurasFlag from '../assets/hn.png'
+// import brazilFlag from '../assets/brz.svg'
 import colombiaFlag from '../assets/colombia.svg'
 import eeuu from '../assets/eeuu.svg'
 import { useLocation } from 'react-router-dom'
@@ -24,10 +25,10 @@ const GetTickets = ({ color }) => {
         }}
       >
         {edition === EDITIONS.BOGOTA && (<img src={colombiaFlag} alt="Colombia Flag" />)}
-        {(edition === EDITIONS.HONDURAS || edition === '') && (<img src={argentinaFlag} alt="Argentina Flag" />)}
+        {(edition === EDITIONS.HONDURAS || edition === '') && (<img src={hondurasFlag} alt="Honduras Flag" />)}
         {edition === EDITIONS.BUENOSAIRES && (<img src={argentinaFlag} alt="Argentina Flag" />)}
       </FlagButton>
-      <FlagButton
+      {/* <FlagButton
         className={locale === 'pt' ? 'active' : ''}
         color={color}
         onClick={() => {
@@ -35,7 +36,7 @@ const GetTickets = ({ color }) => {
         }}
       >
         <img src={brazilFlag} alt="Brazil Flag" />
-      </FlagButton>
+      </FlagButton> */}
       <FlagButton
         className={locale === 'en' ? 'active' : ''}
         color={color}
