@@ -75,8 +75,8 @@
   "honduras.hero.button": "Tickets coming soon!",
   "honduras.hero.city": "@San<br>pedrosula",
   "honduras.hero.country": ">> Honduras",
-  "honduras.venue.title": "<span class='pixel'>Bu</span>en<span class='pixel'>o</span>s air<span class='pixel'>es</span><br />co<span class='pixel'>n</span>venti<span class='pixel'>o</span>n<br /><span class='pixel'>c</span>ente<span class='pixel'>r</span>",
-  "honduras.venue.address": "2099 Figueroa Alcorta Avenue, City of Buenos Aires",
+  "honduras.venue.title": "COPANTL <span class='pixel'>Con</span>venti<span class='pixel'>on</span> C<span class='pixel'>en</span>te<span class='pixel'>r</span>",
+  "honduras.venue.address": " Res. Los Arcos, Blvr. del Sur, San Pedro Sula 21104, Honduras.",
   "honduras.ethtolatam.paragraph1": "<p>The ETH Latam conference has become possible thanks to the foundations laid by local pioneers in Argentina, who managed to build a vibrant community that has made crypto, Ethereum in particular, mainstream in one of the countries that needs it most.</p>",
   "honduras.ethtolatam.paragraph2": "<p>In Latin America, the possibilities offered by Ethereum are not just an option, but the alternative for people to build a new system where no one is left behind. In this way, ETH Latam brings together the global community of creators and educators with the most vibrant crypto communities in the world, who use Ethereum protocols and technology in their daily lives, providing real solutions to real problems.</p>",
   "honduras.faqs.1.title": "What are the COVID policies?",
@@ -93,8 +93,8 @@
   "honduras.faqs.6.content": "<p>Our goal with ETH Latam is to encourage decentralized coordination of an Ethereum-based event series. There will naturally be a lot more events, parties, and activities taking place the week of ETH Latam.</p><p>If you want to host your own side event, we’re happy to help! Just fill out <a href='https://docs.google.com/forms/d/e/1FAIpQLSeMF0NTey0Dgq8_74e6Ddc9NU2ISTguiHH0_mM8EpYRdhbGIw/viewform'>this form</a></p>",
   "honduras.faqs.7.title": "Have questions or ideas?",
   "honduras.faqs.7.content": "Do you have any questions or ideas that you want to suggest? Email us at <a href='mailto:hello@ethkipu.org'>hello@ethkipu.org</a>",
-  "honduras.apply.text": "Quiero ser parte de eth latam 2024 como:",
+  "honduras.apply.text": "I want to be part of ETH Latam 2024 as:",
   "honduras.apply.sponsor": "Sponsor",
   "honduras.apply.speaker": "Speaker",
-  "honduras.apply.volunteer": "Voluntario"
+  "honduras.apply.volunteer": "Volunteer"
 }
