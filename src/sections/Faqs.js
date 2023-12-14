@@ -3,10 +3,9 @@ import { FormattedMessage, FormattedHTMLMessage, useIntl } from 'react-intl'
 import styled from 'styled-components'
 import background from '../assets/faq-line.svg'
 
-export default function App() {
+export default function Faqs({ edition }) {
   const intl = useIntl()
   const f = 'faqs'
-  const edition = localStorage.getItem('edition')
   const data = {
     rows: [
       {

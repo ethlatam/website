@@ -12,10 +12,6 @@
   "hero.button": "Tickets agotados",
   "ethtolatam.title": "S<span class='pixel'>o</span>br<span class='pixel'>e E</span>TH",
   "ethtolatam.title2": "L<span class='pixel'>a</span>tam",
-  "ethtolatamBogota.paragraph1": "<p>ETH Latam Bogotá será un evento de un día todo en español con charlas y workshops para personas que quieren aprender sobre Ethereum. Es la puerta de entrada para todos los que deseen conocer los principios, valores, usos y el impacto de la tecnología.</p>",
-  "ethtolatamBogota.paragraph2": "<p>Un espacio co-creado entre todas las comunidades de Latinoamérica para comunicar el impacto de Ethereum en la calidad de vida de las personas y en el cambio de mindset.</p>",
-  "ethtolatamBuenosAires.paragraph1": "<p>La conferencia ETH Latam se ha vuelto posible gracias a las bases que sentaron los pioneros locales en Argentina, quienes lograron construir una comunidad vibrante que ha conseguido que las criptomonedas, Ethereum en particular, sean mainstream en uno de los países que más lo necesita.</p>",
-  "ethtolatamBuenosAires.paragraph2": "<p>En Latinoamérica las posibilidades que brinda Ethereum no son sólo una opción, sino la alternativa para que las personas construyan un nuevo sistema donde nadie se quede atrás. De esta forma, ETH Latam reúne a la comunidad global de creadores y educadores con las comunidades cripto más vibrantes del mundo, que utilizan los protocolos y la tecnología de Ethereum en su vida cotidiana aportando soluciones reales a problemas reales.</p>",
   "sponsors.title": "S<span class='pixel'>p</span>ons<span class='pixel'>o</span>rs",
   "media.title": "M<span class='pixel'>e</span>di<span class='pixel'>a</span> & <span class='pixel'>edu</span><br />Pa<span class='pixel'>r</span>t<span class='pixel'>ne</span>rs",
   "venue.title": "<span class='pixel'>c</span>ent<span class='pixel'>ro</span> d<span class='pixel'>e</span><br/>co<span class='pixel'>n</span>venci<span class='pixel'>o</span>nes<br /><span class='pixel'>Bu</span>en<span class='pixel'>o</span>s air<span class='pixel'>es</span>",
@@ -26,8 +22,6 @@
   "faqs.title": "P<span class='pixel'>re</span>gunt<span class='pixel'>as</span><br/><span class='indentation'/>f<span class='pixel'>r</span>ec<span class='pixel'>ue</span>nte<span class='pixel'>s</span>",
   "schedule.break": "Break para el almuerzo",
   "schedule.closing": "Cierre",
-
-
   "bogota.hero.button": "Ver en youtube",
   "bogota.hero.date": "10",
   "bogota.hero.month": "OCTUBRE",
@@ -51,7 +45,6 @@
   "bogota.faqs.5.content": "Puedes enviarnos tu propuesta al siguiente email: hello@ethkipu.org",
   "bogota.faqs.6.title": "Soy una institución educativa y me quisiera aportar como partner educativo para ETHLatam Bogotá.",
   "bogota.faqs.6.content": "Puedes enviarnos tu propuesta al siguiente email: hello@ethkipu.org",
-
   "buenos-aires.hero.button": "Ver en youtube",
   "buenos-aires.hero.date": "11-12-13",
   "buenos-aires.hero.month": "AGOSTO",
@@ -78,11 +71,10 @@
   "buenos-aires.faqs.6.content": "<p>Nuestro objetivo con ETH Latam es fomentar la coordinación descentralizada de una eventos basados ​​en Ethereum. Naturalmente, habrá muchos más eventos, fiestas y actividades durante la semana de ETH Latam.</p><p>Si deseas organizar tu propio side event, completa <a href='https://docs.google.com/forms/d/e/1FAIpQLSeMF0NTey0Dgq8_74e6Ddc9NU2ISTguiHH0_mM8EpYRdhbGIw/viewform'>este formulario</a></p>",
   "buenos-aires.faqs.7.title": "¿Preguntas o ideas?",
   "buenos-aires.faqs.7.content": "¿Tienes alguna pregunta o idea que quisieras sugerir? Envíanos un correo electrónico a <a href='mailto:hello@ethkipu.org'>hello@ethkipu.org</a>",
-
-  "honduras.hero.button": "Tickets coming soon!",
-  "honduras.hero.date": "MARZO",
-  "honduras.hero.month": " ",
+  "honduras.hero.date": "13-14",
+  "honduras.hero.month": "MARZO",
   "honduras.hero.year": "2024",
+  "honduras.hero.button": "Tickets próximamente!",
   "honduras.hero.city": "@San<br>pedrosula",
   "honduras.hero.country": ">> Honduras",
   "honduras.venue.title": "COPANTL <span class='pixel'>Con</span>venti<span class='pixel'>on</span> C<span class='pixel'>en</span>te<span class='pixel'>r</span>",

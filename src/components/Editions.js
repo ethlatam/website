@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react'
-import { FormattedMessage } from 'react-intl'
+import React from 'react'
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
-import { PALETTE, ROUTES } from '../App';
+import { PALETTE } from '../App';
+import { ROUTES } from '../routes';
 
-const GetTickets = ({ color = PALETTE.GREEN }) => {
+const Editions = ({ color = PALETTE.GREEN }) => {
+
   return (
     <SelectSection color={color}>
       <div className="dropdown">
@@ -95,4 +96,4 @@ const SelectSection = styled.div`
   }
 `
 
-export default GetTickets
+export default Editions

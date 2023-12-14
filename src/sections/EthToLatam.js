@@ -3,25 +3,22 @@ import styled from 'styled-components'
 import { FormattedHTMLMessage } from 'react-intl'
 import underline from '../assets/latam-underline.svg'
 import arrow from '../assets/arrow.svg'
+import { useLanguage } from '../context/LanguageContext'
 
-const EthToLatam = () => {
+const EthToLatam = ({ edition }) => {
   const [width, setWidth] = useState(window.innerWidth)
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
   }, [])
   const medium = 700
-  const edition = localStorage.getItem('edition')
-  const locale =
-    typeof window.localStorage !== 'undefined'
-      ? localStorage.getItem('locale')
-      : 'en'
+  const { locale } = useLanguage();
 
   return (
     <EthToLatamSection id="about">
       <Container>
         <h1>
           <FormattedHTMLMessage id="ethtolatam.title" />
-          {width < medium && locale != 'en' && <br />}
+          {width < medium && locale !== 'en' && <br />}
           <Arrow src={arrow} />
           {width >= medium && <br />}
           <Green>

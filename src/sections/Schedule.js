@@ -84,12 +84,10 @@ import bruno from '../assets/speakers2/bruno.jpeg'
 import sweetman from '../assets/speakers2/sweetman.jpeg'
 
 import jaffet from '../assets/speakers2/jaffet.jpg'
+import { useLanguage } from '../context/LanguageContext'
 
 const Schedule = () => {
-  const locale =
-    typeof window.localStorage !== 'undefined'
-      ? localStorage.getItem('locale')
-      : 'en'
+  const { locale } = useLanguage();
   const [width, setWidth] = useState(window.innerWidth)
   useEffect(() => {
     window.addEventListener('resize', () => setWidth(window.innerWidth))
