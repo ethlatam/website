@@ -2,12 +2,14 @@ import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { FormattedHTMLMessage } from 'react-intl'
 
-import ens from '../assets/sponsorsHN/ens.svg'
-import push from '../assets/sponsorsHN/Push.svg'
-import opt from '../assets/sponsorsHN/opt.svg'
-import optEsp from '../assets/sponsorsHN/OPESP.svg'
-import layer from '../assets/sponsorsHN/layer.png'
-import livepeer from '../assets/sponsorsHN/livepeer.svg'
+import ape from '../assets/sponsorsHN/ape.png'
+import chain from '../assets/sponsorsHN/chain.jpeg'
+import eth from '../assets/sponsorsHN/opt.svg'
+import etherscan from '../assets/sponsorsHN/OPESP.svg'
+import icp from '../assets/sponsorsHN/layer.png'
+import metalogo from '../assets/sponsorsHN/metalogo.svg'
+import scroll from '../assets/sponsorsHN/scroll.png'
+
 import { useLanguage } from '../context/LanguageContext'
 
 const SponsorsHN = () => {
@@ -27,33 +29,38 @@ const SponsorsHN = () => {
         <Row>
           <BoxItem className="tierOne">
             <BoxInfo>
-              <img src={ens} width="150" />
+              <img src={ape} width="150" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierOne">
             <BoxInfo>
-              <img src={livepeer} width="150" />
+              <img src={chain} width="150" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierOne">
             <BoxInfo>
-              <img src={opt} height="100" />
+              <img src={eth} height="100" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierOne">
             <BoxInfo>
-              <img src={layer} width="250" />
+              <img src={icp} width="250" />
             </BoxInfo>
           </BoxItem>
 
           <BoxItem className="tierOne">
             <BoxInfo>
-              <img src={push} height="70" />
+              <img src={etherscan} height="70" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierOne">
             <BoxInfo>
-              <img src={optEsp} height="90" />
+              <img src={scroll} height="90" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierOne">
+            <BoxInfo>
+              <img src={metalogo} width="150" />
             </BoxInfo>
           </BoxItem>
         </Row>

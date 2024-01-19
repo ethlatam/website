@@ -4,7 +4,6 @@ import { FormattedHTMLMessage } from 'react-intl'
 
 import ethereumFoundation from '../assets/sponsors2/ethereumFoundation.svg'
 import buenosAiresCiudad from '../assets/sponsors2/ba.svg'
-
 import ripio from '../assets/sponsors2/ripio.svg'
 import protofire from '../assets/sponsors2/protofire.svg'
 import thinkandDev from '../assets/sponsors2/ThinkandDev.png'
