@@ -2,14 +2,13 @@ import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { FormattedHTMLMessage } from 'react-intl'
 
-import ape from '../assets/sponsorsHN/ape.png'
-import chain from '../assets/sponsorsHN/chain.jpeg'
-import eth from '../assets/sponsorsHN/opt.svg'
-import etherscan from '../assets/sponsorsHN/OPESP.svg'
-import icp from '../assets/sponsorsHN/layer.png'
-import metalogo from '../assets/sponsorsHN/metalogo.svg'
+import esp from '../assets/sponsorsHN/esp.svg'
+import apecoin from '../assets/sponsorsHN/ape.png'
 import scroll from '../assets/sponsorsHN/scroll.png'
-
+import icp from '../assets/sponsorsHN/icp.png'
+import chainlink from '../assets/sponsorsHN/chainlink.png'
+import metapool from '../assets/sponsorsHN/metapool.svg'
+import etherscan from '../assets/sponsorsHN/etherscan.png'
 import { useLanguage } from '../context/LanguageContext'
 
 const SponsorsHN = () => {
@@ -26,52 +25,122 @@ const SponsorsHN = () => {
         <h1>
           <FormattedHTMLMessage id="sponsors.title" />
         </h1>
-        <Row>
+        {/* <Row>
+          <BoxItem className="tierZero">
+            <BoxInfo>
+              <img src={esp} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierZero">
+            <BoxInfo>
+              <img src={scroll} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierZero">
+            <BoxInfo>
+              <img src={apecoin} width="150" />
+            </BoxInfo>
+          </BoxItem>
+       </Row> */}
+       <Row>
           <BoxItem className="tierOne">
             <BoxInfo>
-              <img src={ape} width="150" />
+              <img src={esp} width="300" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierOne">
             <BoxInfo>
-              <img src={chain} width="150" />
+              <img src={scroll} width="300" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierOne">
             <BoxInfo>
-              <img src={eth} height="100" />
+              <img src={apecoin} width="200" />
+            </BoxInfo>
+          </BoxItem>
+       </Row>
+       {/* <Row>
+          <BoxItem className="tierOne">
+            <BoxInfo>
+              <img src={ens} width="150" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierOne">
             <BoxInfo>
-              <img src={icp} width="250" />
+              <img src={livepeer} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierOne">
+            <BoxInfo>
+              <img src={opt} height="100" />
+            </BoxInfo>
+          </BoxItem>
+       </Row> */}
+
+       <Row>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={icp} width="200" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={chainlink} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={metapool} width="200" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={etherscan} width="200" />
             </BoxInfo>
           </BoxItem>
 
-          <BoxItem className="tierOne">
-            <BoxInfo>
-              <img src={etherscan} height="70" />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierOne">
-            <BoxInfo>
-              <img src={scroll} height="90" />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierOne">
-            <BoxInfo>
-              <img src={metalogo} width="150" />
-            </BoxInfo>
-          </BoxItem>
         </Row>
+        {/* <Row>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={layer} width="250" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={push} height="70" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={optEsp} height="90" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={layer} width="250" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={layer} width="250" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={push} height="70" />
+            </BoxInfo>
+          </BoxItem>
+        </Row> */}
       </Container>
     </SponsorsHNSection>
   )
 }
 
+
 const SponsorsHNSection = styled.section`
   background: #0b0c0d;
-  color: #4D4D4D;
+  color: #4d4d4d;
   text-align: center;
   height: auto;
   h1 {
@@ -97,7 +166,7 @@ const Row = styled.div`
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  outline: 1px solid #4D4D4D;
+  outline: 1px solid #4d4d4d;
   max-width: 1134px;
   @media only screen and (max-width: 700px) {
     max-width: 360px;
@@ -127,13 +196,40 @@ const BoxItem = styled.div`
   display: inline-block;
   margin: 0;
   text-align: center;
-  outline: 1px solid #4D4D4D;
+  outline: 1px solid #4d4d4d;
   img {
     overflow: hidden;
-    max-width: 70%;
+  }
+  &.tierZero {
+    height: 250px;
+    width: 567px;
+    @media only screen and (max-width: 700px) {
+      width: 360px;
+    }
+    @media only screen and (min-width: 701px) and (max-width: 1230px) {
+      width: 600px;
+    }
+    .div {
+      height: 290px;
+      width: 560px;
+    }
+  }
+  &.tierOne {
+    height: 220px;
+    width: 378px;
+    @media only screen and (max-width: 700px) {
+      width: 360px;
+    }
+    @media only screen and (min-width: 701px) and (max-width: 1230px) {
+      width: 600px;
+    }
+    .div {
+      height: 216px;
+      width: 374px;
+    }
   }
   &.tierTwo {
-    height: 180px;
+    height: 110px;
     width: 283.5px;
     @media only screen and (max-width: 700px) {
       width: 180px;
@@ -147,18 +243,25 @@ const BoxItem = styled.div`
       width: 279px;
     }
   }
-  &.tierOne {
-    height: 250px;
-    width: 378px;
+  &.tierThree {
+    height: 88px;
+    width: 189px;
     @media only screen and (max-width: 700px) {
-      width: 360px;
+      width: 120px;
     }
     @media only screen and (min-width: 701px) and (max-width: 1230px) {
-      width: 600px;
+      width: 200px;
     }
+
     .div {
-      height: 290px;
-      width: 560px;
+      height: 84px;
+      width: 185px;
+    }
+    img {
+      max-width: 80%;
+      &.lens {
+        max-height: 100%;
+      }
     }
   }
 `

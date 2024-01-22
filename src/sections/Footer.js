@@ -35,7 +35,7 @@ const Footer = ({ withoutImage = false, color = PALETTE.GREEN }) => {
               <img alt="img" src={discord} />
             </a>
           </div>
-          <h1>ETHLatam 2022 ©</h1>
+          <h1>ETHLatam 2024 ©</h1>
         </div>
       </Container>
     </FooterSection>
