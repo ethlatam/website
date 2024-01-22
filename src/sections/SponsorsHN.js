@@ -2,35 +2,16 @@ import React, { useEffect, useState } from 'react'
 import styled from 'styled-components'
 import { FormattedHTMLMessage } from 'react-intl'
 
-import ethereumFoundation from '../assets/sponsors2/ethereumFoundation.svg'
-import buenosAiresCiudad from '../assets/sponsors2/ba.svg'
-import ripio from '../assets/sponsors2/ripio.svg'
-import protofire from '../assets/sponsors2/protofire.svg'
-import thinkandDev from '../assets/sponsors2/ThinkandDev.png'
-import wonderland from '../assets/sponsors2/Wonderland.png'
-import belo from '../assets/sponsors2/belo.svg'
-import argent from '../assets/sponsors2/worldcoin.svg'
-import maker from '../assets/sponsors2/Maker.svg'
-import starkware from '../assets/sponsors2/starkware.png'
-import epns from '../assets/sponsors2/epns.svg'
-import wink from '../assets/sponsors2/wink.svg'
-import auth0 from '../assets/sponsors2/auth0.svg'
-import theGraph from '../assets/sponsors2/TheGraph.svg'
-import exactly from '../assets/sponsors2/exactly.svg'
-import lens from '../assets/sponsors2/lens.svg'
-import lemon from '../assets/sponsors2/lemon.svg'
-import scroll from '../assets/sponsors2/Scroll.svg'
-import ethGlobal from '../assets/sponsors2/ETHGlobal.svg'
-import decentraland from '../assets/sponsors2/decentraland.svg'
-import oz from '../assets/sponsors2/OZ.svg'
-import metis from '../assets/sponsors2/metis.svg'
-import bitso from '../assets/sponsors2/bitso.svg'
-import livepeer from '../assets/sponsors2/livepeer.svg'
-import connext from '../assets/sponsors2/connext.svg'
-import polygon from '../assets/sponsors2/polygon.svg'
+import esp from '../assets/sponsorsHN/esp.svg'
+import apecoin from '../assets/sponsorsHN/ape.png'
+import scroll from '../assets/sponsorsHN/scroll.png'
+import icp from '../assets/sponsorsHN/icp.png'
+import chainlink from '../assets/sponsorsHN/chainlink.png'
+import metapool from '../assets/sponsorsHN/metapool.svg'
+import etherscan from '../assets/sponsorsHN/etherscan.png'
 import { useLanguage } from '../context/LanguageContext'
 
-const Sponsors = () => {
+const SponsorsHN = () => {
   const { locale } = useLanguage()
   const [width, setWidth] = useState(window.innerWidth)
   useEffect(() => {
@@ -39,157 +20,125 @@ const Sponsors = () => {
   const medium = 700
 
   return (
-    <SponsorsSection id="sponsors" locale={locale}>
+    <SponsorsHNSection id="media" locale={locale}>
       <Container>
         <h1>
           <FormattedHTMLMessage id="sponsors.title" />
         </h1>
-        <Row>
+        {/* <Row>
+          <BoxItem className="tierZero">
+            <BoxInfo>
+              <img src={esp} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierZero">
+            <BoxInfo>
+              <img src={scroll} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierZero">
+            <BoxInfo>
+              <img src={apecoin} width="150" />
+            </BoxInfo>
+          </BoxItem>
+       </Row> */}
+       <Row>
           <BoxItem className="tierOne">
             <BoxInfo>
-              <img src={ripio} width="280" />
+              <img src={esp} width="300" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierOne">
             <BoxInfo>
-              <img src={buenosAiresCiudad} width="200" />
+              <img src={scroll} width="300" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierOne">
             <BoxInfo>
-              <img src={wink} width="300" />
+              <img src={apecoin} width="200" />
             </BoxInfo>
           </BoxItem>
-        </Row>
-        <Row>
-          <BoxItem className="tierTwo">
+       </Row>
+       {/* <Row>
+          <BoxItem className="tierOne">
             <BoxInfo>
-              <img width="270" src={belo} />
+              <img src={ens} width="150" />
             </BoxInfo>
           </BoxItem>
-          <BoxItem className="tierTwo">
+          <BoxItem className="tierOne">
             <BoxInfo>
-              <img width={width >= medium ? 170 : 150} src={argent} />
+              <img src={livepeer} width="150" />
             </BoxInfo>
           </BoxItem>
-          <BoxItem className="tierTwo">
+          <BoxItem className="tierOne">
             <BoxInfo>
-              <img width="300" src={ethereumFoundation} />
+              <img src={opt} height="100" />
             </BoxInfo>
           </BoxItem>
+       </Row> */}
+
+       <Row>
           <BoxItem className="tierTwo">
             <BoxInfo>
-              <img width="180" src={protofire} />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierTwo">
-            <BoxInfo />
-          </BoxItem>
-          <BoxItem className="tierTwo">
-            <BoxInfo>
-              <img width={width >= medium ? 200 : 150} src={decentraland} />
+              <img src={icp} width="200" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">
             <BoxInfo>
-              <img width={width >= medium ? 210 : 150} src={oz} />
+              <img src={chainlink} width="150" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">
             <BoxInfo>
-              <img width={width >= medium ? 210 : 150} src={maker} />
+              <img src={metapool} width="200" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">
             <BoxInfo>
-              <img width={width >= medium ? 220 : 160} src={starkware} />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierTwo">
-            <BoxInfo>
-              <img height="75" src={thinkandDev} />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierTwo">
-            <BoxInfo>
-              <img width="150" src={epns} />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierTwo">
-            <BoxInfo>
-              <img width="150" src={livepeer} />
-            </BoxInfo>
-          </BoxItem>
-        </Row>
-        <Row>
-          <BoxItem className="tierThree">
-            <BoxInfo>
-              <img width="90" src={auth0} />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierThree">
-            <BoxInfo>
-              <img src={theGraph} />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierThree">
-            <BoxInfo>
-              <img className="lens" src={lens} />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierThree">
-            <BoxInfo>
-              <img width={width >= medium ? 120 : 95} src={exactly} />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierThree">
-            <BoxInfo>
-              <img width={width >= medium ? 130 : 95} src={metis} />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierThree">
-            <BoxInfo>
-              <img width={width >= medium ? 130 : 95} src={bitso} />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierThree">
-            <BoxInfo>
-              <img width={width >= medium ? 210 : 150} src={polygon} />
+              <img src={etherscan} width="200" />
             </BoxInfo>
           </BoxItem>
 
-          <BoxItem className="tierThree">
-            <BoxInfo>
-              <img width={width >= medium ? 210 : 150} src={ethGlobal} />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierThree">
-            <BoxInfo>
-              <img width={width >= medium ? 120 : 95} src={lemon} />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierThree">
-            <BoxInfo>
-              <img width={width >= medium ? 130 : 95} src={scroll} />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierThree">
-            <BoxInfo>
-              <img src={wonderland} />
-            </BoxInfo>
-          </BoxItem>
-          <BoxItem className="tierThree">
-            <BoxInfo>
-              <img src={connext} />
-            </BoxInfo>
-          </BoxItem>
         </Row>
+        {/* <Row>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={layer} width="250" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={push} height="70" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={optEsp} height="90" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={layer} width="250" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={layer} width="250" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={push} height="70" />
+            </BoxInfo>
+          </BoxItem>
+        </Row> */}
       </Container>
-    </SponsorsSection>
+    </SponsorsHNSection>
   )
 }
 
-const SponsorsSection = styled.section`
+
+const SponsorsHNSection = styled.section`
   background: #0b0c0d;
   color: #4d4d4d;
   text-align: center;
@@ -330,4 +279,4 @@ const Container = styled.div`
   padding-bottom: 160px;
 `
 
-export default Sponsors
+export default SponsorsHN
