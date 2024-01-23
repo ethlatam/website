@@ -3,8 +3,10 @@ import styled from 'styled-components'
 import { FormattedHTMLMessage } from 'react-intl'
 
 import esp from '../assets/sponsorsHN/esp.svg'
+import pse from '../assets/sponsorsHN/pse.png'
 import apecoin from '../assets/sponsorsHN/ape.png'
 import scroll from '../assets/sponsorsHN/scroll.png'
+import waku from '../assets/sponsorsHN/waku.svg'
 import icp from '../assets/sponsorsHN/icp.png'
 import chainlink from '../assets/sponsorsHN/chainlink.png'
 import metapool from '../assets/sponsorsHN/metapool.svg'
@@ -25,25 +27,30 @@ const SponsorsHN = () => {
         <h1>
           <FormattedHTMLMessage id="sponsors.title" />
         </h1>
-        {/* <Row>
+        <Row>
           <BoxItem className="tierZero">
             <BoxInfo>
-              <img src={esp} width="150" />
+              <img src={esp} width="380" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierZero">
             <BoxInfo>
-              <img src={scroll} width="150" />
+              <img src={scroll} width="380" />
+            </BoxInfo>
+          </BoxItem>
+          {/* <BoxItem className="tierZero">
+            <BoxInfo>
+              <img src={pse} width="150" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierZero">
             <BoxInfo>
               <img src={apecoin} width="150" />
             </BoxInfo>
-          </BoxItem>
-       </Row> */}
+          </BoxItem> */}
+       </Row>
        <Row>
-          <BoxItem className="tierOne">
+          {/* <BoxItem className="tierOne">
             <BoxInfo>
               <img src={esp} width="300" />
             </BoxInfo>
@@ -52,10 +59,20 @@ const SponsorsHN = () => {
             <BoxInfo>
               <img src={scroll} width="300" />
             </BoxInfo>
+          </BoxItem> */}
+          <BoxItem className="tierOne">
+            <BoxInfo>
+              <img src={pse} width="180" />
+            </BoxInfo>
           </BoxItem>
           <BoxItem className="tierOne">
             <BoxInfo>
-              <img src={apecoin} width="200" />
+              <img src={apecoin} width="180" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierOne">
+            <BoxInfo>
+              <img src={waku} width="250" />
             </BoxInfo>
           </BoxItem>
        </Row>
