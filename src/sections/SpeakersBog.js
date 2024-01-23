@@ -19,7 +19,7 @@ import manu from '../assets/speakersBog/ManuAlzuru.jpg'
 import tobal from '../assets/speakersBog/TobalGarcia.jpeg'
 import alfredo from '../assets/speakersBog/AlfredoRoi.jpeg'
 import mateo from '../assets/speakersBog/MateoDaza.jpg'
-import cristian from '../assets/speakersBog/CristianEspinozaGarner.jpg'
+import crisgarner from '../assets/speakersBog/crisgarner.jpg'
 import ale from '../assets/speakersBog/AleBorda.jpg'
 import cryptochica from '../assets/speakersBog/cryptochica.png'
 import criptolawyer from '../assets/speakersBog/criptolawyer.jpg'
@@ -242,9 +242,9 @@ const Speakers = () => {
               href="https://twitter.com/crisgarner"
               className="importantPersonContent"
             >
-              <img style={{ objectPosition: '100% 50%' }} src={cristian} />
+              <img style={{ objectPosition: '100% 50%' }} src={crisgarner} />
               <div>
-                <h1>Cristian Espinoza Garner</h1>
+                <h1>Crisgarner</h1>
                 <Subtitile>
                   <Country src={honduras} />
                   <h2>Cryptex Finance</h2>
