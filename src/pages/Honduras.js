@@ -1,6 +1,7 @@
 import Navbar from "../sections/Navbar";
 import Hero from '../sections/Hero'
 import EthToLatam from '../sections/EthToLatam'
+import SpeakersHN from '../sections/SpeakersHN'
 import SponsorsHN from '../sections/SponsorsHN'
 import Venue from '../sections/Venue'
 import Footer from '../sections/Footer'
@@ -31,6 +32,7 @@ function Honduras() {
             <EthToLatam edition={EDITIONS.HONDURAS} />
             <Loop reverse content={<img src={date1} alt="smothing honduras" />} />
             <Loop content={<img src={date2} alt="smothing honduras" />} />
+            <SpeakersHN />
             <SponsorsHN />
             <Venue
                 locationHref={"https://copantl.com/"}
