@@ -93,7 +93,7 @@ const Speakers = () => {
 
           <BoxItem className="importantPerson">
             <Content target="_blank" href="https://twitter.com/FilosofiaCodigo" className="importantPersonContent">
-              <img style={{ objectPosition: '66% 50%' }} src={ahmed} />
+              <img style={{ objectPosition: '66% 50%'}} src={ahmed} />
               <div>
                 <h1>Ahmed Castro</h1>
                 <Subtitile>
@@ -106,7 +106,7 @@ const Speakers = () => {
 
           <BoxItem className="importantPerson">
             <Content target="_blank" href="https://twitter.com/the_ethernaut" className="importantPersonContent">
-              <img style={{ objectPosition: '66% 50%' }} src={alejandro} />
+              <img style={{ objectPosition: '50% 50%', width:'75px' }} src={alejandro} />
               <div>
                 <h1>Alejandro Santander</h1>
                 <Subtitile>
@@ -194,7 +194,7 @@ const Speakers = () => {
               href="https://twitter.com/entigdd"
               className="importantPersonContent"
             >
-              <img style={{ objectPosition: '100% 50%' }} src={isaacGonzales} />
+              <img style={{ objectPosition: '50% 50%' }} src={isaacGonzales} />
               <div>
                 <h1>Isaac González</h1>
                 <Subtitile>
@@ -213,7 +213,7 @@ const Speakers = () => {
               href="https://twitter.com/NicoSerranoP"
               className="importantPersonContent"
             >
-              <img style={{ objectPosition: '100% 50%' }} src={nicoSerrano} />
+              <img style={{ objectPosition: '50% 50%' ,objectFit:'cover' }} src={nicoSerrano} />
               <div>
                 <h1>Nicolas Serrano</h1>
                 <Subtitile>
@@ -396,7 +396,7 @@ const BoxItem = styled.div`
     height: 152px;
   }
   &.importantPerson {
-    height: 76px;
+    height: 96px;
   }
 `
 const Content = styled.a`
@@ -423,8 +423,8 @@ const Content = styled.a`
     display: flex;
     align-items: center;
     img {
-      height: 44px;
-      width: 44px;
+      height: 64px;
+      width: 64px;
       object-fit: cover;
       object-position: center;
       padding: 14px 16px;
