@@ -9,11 +9,9 @@ import scroll from '../assets/sponsorsHN/scroll.png'
 import waku from '../assets/sponsorsHN/waku.svg'
 import icp from '../assets/sponsorsHN/icp.png'
 import chainlink from '../assets/sponsorsHN/chainlink.png'
+import metis from '../assets/sponsorsHN/metis.png'
 import metapool from '../assets/sponsorsHN/metapool.svg'
-import etherscan from '../assets/sponsorsHN/community/etherscan.png'
 import starknet from "../assets/sponsorsHN/starknet.svg"
-import zupass from "../assets/sponsorsHN/community/zupass.png"
-import tgu from "../assets/sponsorsHN/community/tgu.png"
 import { useLanguage } from '../context/LanguageContext'
 
 const SponsorsHN = () => {
@@ -98,22 +96,27 @@ const SponsorsHN = () => {
        </Row> */}
 
        <Row>
-          <BoxItem className="tierTwo">
+          <BoxItem className="tierThree">
             <BoxInfo>
               <img src={starknet} width="200" />
             </BoxInfo>
           </BoxItem>
-          <BoxItem className="tierTwo">
+          <BoxItem className="tierThree">
             <BoxInfo>
               <img src={chainlink} width="150" />
             </BoxInfo>
           </BoxItem>
-          <BoxItem className="tierTwo">
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={metis} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
             <BoxInfo>
               <img src={metapool} width="200" />
             </BoxInfo>
           </BoxItem>
-          <BoxItem className="tierTwo">
+          <BoxItem className="tierThree">
             <BoxInfo>
               <img src={icp} width="200" />
             </BoxInfo>

@@ -10,6 +10,10 @@ import cryptoversidad from "../assets/sponsorsHN/community/cryptoversidad.png"
 import seedLatam from "../assets/sponsorsHN/community/seedLatam.png"
 import modular from "../assets/sponsorsHN/community/modular.webp"
 import samba from "../assets/sponsorsHN/community/samba.png"
+import volcano from "../assets/sponsorsHN/community/volcano.png"
+import dominicana from "../assets/sponsorsHN/community/dominicana.png"
+import costarica from "../assets/sponsorsHN/community/costarica.svg"
+
 import { useLanguage } from '../context/LanguageContext'
 
 const SponsorsHN = () => {
@@ -55,6 +59,21 @@ const SponsorsHN = () => {
           <BoxItem className="tierTwo">
             <BoxInfo>
               <img src={seedLatam} width="200" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={dominicana} width="200" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={costarica} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={volcano} width="100" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">
