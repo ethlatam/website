@@ -19,6 +19,7 @@ import sps from "../assets/sponsorsHN/community/SPS.png"
 import singapur from "../assets/sponsorsHN/community/singapur.png"
 import solow from "../assets/sponsorsHN/community/solow.png"
 import usap from "../assets/sponsorsHN/community/usap.png"
+import cointelegraph from "../assets/sponsorsHN/community/cointelegraph.png"
 
 import { useLanguage } from '../context/LanguageContext'
 
@@ -100,6 +101,11 @@ const SponsorsHN = () => {
           <BoxItem className="tierTwo">
             <BoxInfo>
               <img src={usap} width="150" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierTwo">
+            <BoxInfo>
+              <img src={cointelegraph} width="250" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierTwo">
