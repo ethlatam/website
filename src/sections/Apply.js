@@ -9,19 +9,19 @@ const Apply = () => {
     return (
         <ApplySection>
             <ApplyContainer>
-                <Box>
+                {/* <Box>
                     <FormattedMessage id="honduras.apply.text" />
-                </Box>
+                </Box> */}
                 <Box>
-                    <ApplyButton color={PALETTE.GREEN} href="https://tally.so/r/wbjd5L" target="_blank">
-                        <FormattedMessage id="honduras.apply.sponsor" />
+                    <ApplyButton color={PALETTE.GREEN} href="https://ethkipu.notion.site/ETH-Latam-San-Pedro-Sula-dc72b6e2b81e41ec8f5bebf0cb9bbd6c" target="_blank">
+                        <FormattedMessage id="honduras.apply.guide" />
                     </ApplyButton>
                     <ApplyButton color={PALETTE.PINK} href="https://tally.so/r/wA2v7D" target="_blank">
-                        <FormattedMessage id="honduras.apply.speaker" />
+                        <FormattedMessage id="honduras.apply.sideevents" />
                     </ApplyButton>
-                    <ApplyButton color={PALETTE.SKYBLUE} href="https://tally.so/r/mK51Y8" target="_blank">
+                    {/* <ApplyButton color={PALETTE.SKYBLUE} href="https://tally.so/r/mK51Y8" target="_blank">
                         <FormattedMessage id="honduras.apply.volunteer" />
-                    </ApplyButton>
+                    </ApplyButton> */}
                 </Box>
             </ApplyContainer>
         </ApplySection>
