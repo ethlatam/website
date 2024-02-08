@@ -60,11 +60,11 @@ const Box = styled.div`
 const ApplyButton = styled(Button)`
     padding: 10px 15px;
     margin: 15px;
-    font-size: 16px;
     @media only screen and (max-width: 600px) {
         width: 100%;
         text-align: center;
     }
 `
+
 
 export default Apply;
