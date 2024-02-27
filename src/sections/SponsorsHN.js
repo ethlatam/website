@@ -19,7 +19,7 @@ import dora from "../assets/sponsorsHN/dora.png"
 import zksync from "../assets/sponsorsHN/zksync.png"
 import quark from "../assets/sponsorsHN/quarkID.png"
 import xucre from "../assets/sponsorsHN/xucre.png"
-import unitec from "../assets/sponsorsHN/unitec.webp"
+import unitec from "../assets/sponsorsHN/unitec.png"
 import { useLanguage } from '../context/LanguageContext'
 
 const SponsorsHN = () => {
