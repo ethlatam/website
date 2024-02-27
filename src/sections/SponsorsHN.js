@@ -18,6 +18,7 @@ import ens from "../assets/sponsorsHN/ens_logo_dao.png"
 import dora from "../assets/sponsorsHN/dora.png"
 import zksync from "../assets/sponsorsHN/zksync.png"
 import quark from "../assets/sponsorsHN/quarkID.png"
+import xucre from "../assets/sponsorsHN/xucre.png"
 import { useLanguage } from '../context/LanguageContext'
 
 const SponsorsHN = () => {
@@ -150,6 +151,11 @@ const SponsorsHN = () => {
           <BoxItem className="tierThree">
             <BoxInfo>
               <img src={dora} width="200" />
+            </BoxInfo>
+          </BoxItem>
+          <BoxItem className="tierThree">
+            <BoxInfo>
+              <img src={xucre} width="200" />
             </BoxInfo>
           </BoxItem>
           <BoxItem className="tierThree">
