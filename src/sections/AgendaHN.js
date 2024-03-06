@@ -378,6 +378,17 @@ const Schedule = () => {
                 <Hours>08:30 - 09:00</Hours>
                 <div className="twoColumns">
                   <div>
+                  <h3>Introducción en Sala Conference</h3>
+                  </div>
+                  <div>
+                    <h3> - </h3>
+                  </div>
+                </div>
+              </Entry>
+              <Entry>
+                <Hours>09:00 - 09:30</Hours>
+                <div className="twoColumns">
+                  <div>
                     <p>Sala Workshops</p>
                     <h3>Apertura de puertas - Registro de asistentes</h3>
                     <p></p>
@@ -402,7 +413,7 @@ const Schedule = () => {
                 <Hours>10:00 - 10:30</Hours>
                 <div className="twoColumns">
                   <div>
-                    <h3> - </h3>
+                    <h3> Apertura de Hackathon </h3>
                   </div>
                   <div>
                     <p>Sala Workshops</p>
@@ -415,7 +426,7 @@ const Schedule = () => {
                 <Hours>10:30 - 11:00</Hours>
                 <div className="twoColumns">
                   <div>
-                    <h3>Apertura de Hackathon</h3>
+                    <h3>Formación de equipos para hackathon</h3>
                   </div>
                   <div>
                     <p>Sala Workshop</p>
