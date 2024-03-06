@@ -80,7 +80,7 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Entrevista a Vitalik</h3>
+                    <h3>Entrevista a Vitalik (Online)</h3>
                     <p>Vitalik, Ethereum Foundation</p>
                   </div>
                   <div>
@@ -255,7 +255,7 @@ const Schedule = () => {
                     <h3>
                         Actualidad del Staking
                     </h3>
-                    <p>Enti + Alan Estrada (Metapool) + Edax Uclés</p>
+                    <p>Isaac González, Alan Estrada, Edax Uclés. Mod. Lola Rodríguez</p>
                   </div>
                 </div>
               </Entry>
@@ -292,7 +292,7 @@ const Schedule = () => {
                     <p>Sala Conference</p>
                     <h3>La promesa de la votación en blockchain</h3>
                     <p>
-                    Sam
+                    Sam Richards
                     </p>
                   </div>
                 </div>
@@ -304,14 +304,14 @@ const Schedule = () => {
                     <p>Sala Conference</p>
                     <h3>Desarrollo en Centroamerica</h3>
                     <p>
-                    Vitalia, Cofi blocks, Alex Garcia de Xucre, Sofia (POI). Modera: Juan Molina
+                    Niklass, Cofi blocks, Alex Garcia, Sofia. Modera: Juan Molina
                     </p>
                   </div>
                   <div>
                     <p>Sala Conference</p>
                     <h3>Desafíos y aciertos de la gobernanza web3</h3>
                     <p>
-                        Joxes, Cristina Meza, Manu, ccarella
+                    Joxes, Cristina Meza Murillo, Manuel González, ccarella.eth
                     </p>
                   </div>
                 </div>
@@ -323,12 +323,12 @@ const Schedule = () => {
                     <p>Sala Conference</p>
                     <h3>Actualidad en el ecosistema NFT</h3>
                     <p>
-                    Ahhsun mod | Gustavo Carvajal, StupidGiant HN, Renato Martinez, Juan de Guate
+                      Gustavo Carvajal, StupidGiant, Renato Martinez, Juan Denize. Modera: Ahhsun
                     </p>
                   </div>
                   <div>
                     <p>Sala Conference</p>
-                    <h3>TBD</h3>
+                    <h3>Cross-chain interoperability between hundreds of chains and modular rollups</h3>
                     <p>
                         Alexander Cervantes
                     </p>
