@@ -155,9 +155,9 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Conference</p>
-                    <h3> - </h3>
+                    <h3> TBD </h3>
                     <p>
-                        -
+                        Joxes
                     </p>
                   </div>
                   <div>
@@ -348,6 +348,10 @@ const Schedule = () => {
               </Entry>
             </Talks>
           </Day>
+
+
+{/* Workshops */}
+
           <Day>
             <Date>
               <h2>
@@ -411,9 +415,7 @@ const Schedule = () => {
                 <Hours>10:30 - 11:00</Hours>
                 <div className="twoColumns">
                   <div>
-                    <p>Sala Workshops</p>
-                    <h3>Cross-chain NFTs basado en cotizaciones usando Chainlink CCIP.</h3>
-                    <p>Solange Gueiros</p>
+                    <h3>Apertura de Hackathon</h3>
                   </div>
                   <div>
                     <p>Sala Workshop</p>
@@ -441,7 +443,9 @@ const Schedule = () => {
                 <Hours>11:30 - 12:00</Hours>
                 <div className="twoColumns">
                   <div>
-                    <h3>Apertura Hackathon</h3>
+                  <p>Sala Workshops</p>
+                    <h3>Cross-chain NFTs basado en cotizaciones usando Chainlink CCIP.</h3>
+                    <p>Solange Gueiros</p>
                   </div>
                   <div>
                     <p>Sala Workshop</p>

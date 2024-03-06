@@ -26,6 +26,7 @@ import uruguay from "../assets/flags/uy.svg"
 import singapore from "../assets/flags/sg.svg"
 import panama from "../assets/flags/pa.svg"
 import guatemala from "../assets/flags/gt.svg"
+import india from "../assets/flags/in.svg"
 
 import ahhsun from '../assets/speakersHN/ahhsun.png'
 import alex from '../assets/speakersHN/alex.png'
@@ -38,9 +39,11 @@ import chris from "../assets/speakersHN/chris.png"
 import crisgarner from '../assets/speakersHN/crisgarner.png'
 import cristina from "../assets/speakersHN/cristina.png"
 import cryptochica from '../assets/speakersHN/cryptochica.png'
+import denizen from '../assets/speakersHN/denizen.png'
 import diegoMares from '../assets/speakersHN/DiegoMares.jpg'
 import edwin from '../assets/speakersHN/edwin.PNG'
 import francis from '../assets/speakersHN/francis.PNG'
+import guru from '../assets/speakersHN/guru.jpeg'
 import isaacGonzales from '../assets/speakersHN/isaac.png'
 import joao from "../assets/speakersHN/Joao.jpg"
 import jose from "../assets/speakersHN/jose.png"
@@ -295,6 +298,23 @@ const Speakers = () => {
 
           {/* ========== D ============ */}
 
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/DnznJuan"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '100% 50%' }} src={denizen} />
+              <div>
+                <h1>Juan Denizen</h1>
+                <Subtitile>
+                  <Country src={guatemala} />
+                  <h2>ETH KIPU</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
           <BoxItem className="vip">
             <Content
               target="_blank"
@@ -350,6 +370,25 @@ const Speakers = () => {
             </Content>
           </BoxItem>
 
+          {/* ========== G ============ */}
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://x.com/hackyguru"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '100% 50%' }} src={guru} />
+              <div>
+                <h1>Guru</h1>
+                <Subtitile>
+                  <Country src={india} />
+                  <h2>Waku</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
           {/* ========== I ============ */}
 
           <BoxItem className="importantPerson">
@@ -371,16 +410,16 @@ const Speakers = () => {
 
            {/* ========== J ============ */}
 
-           <BoxItem className="importantPerson">
+           <BoxItem className="vip">
             <Content
               target="_blank"
               href="https://twitter.com/cripto_nita_"
-              className="importantPersonContent"
+              className="vipContent"
             >
-              <img style={{ objectPosition: '50% 50%' }} src={joao} />
+              <img style={{ objectPosition: '50% 15%' }} src={joao} />
               <div>
                 <h1>João Kury</h1>
-                <Subtitile>
+                <Subtitile className='withPadding'>
                   <Country src={brasil} />
                   <h2>Modular Crypto</h2>
                 </Subtitile>
