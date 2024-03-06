@@ -80,7 +80,7 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Haciendo Ethereum Cypherpunk Nuevamente</h3>
+                    <h3>Entrevista a Vitalik</h3>
                     <p>Vitalik, Ethereum Foundation</p>
                   </div>
                   <div>
@@ -108,7 +108,7 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Oportunidades Web3 para LATAM</h3>
+                    <h3>Navigating the Infinite Garden: Finding your place in Ethereum</h3>
                     <p>Chris Lema, Scroll</p>
                   </div>
                   <div>
@@ -211,7 +211,7 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Todo sobre RPGF: qué es, cómo participar y por qué es especial</h3>
+                    <h3>¿Cómo financiar tu proyecto haciendo lo que te gusta?</h3>
                     <p>Diego Mares</p>
                   </div>
                   <div>
@@ -253,7 +253,7 @@ const Schedule = () => {
                   <div>
                     <p>Sala Conference</p>
                     <h3>
-                        Panel: Staking
+                        Actualidad del Staking
                     </h3>
                     <p>Enti + Alan Estrada (Metapool) + Edax Uclés</p>
                   </div>
@@ -309,7 +309,7 @@ const Schedule = () => {
                   </div>
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Panel: Gobernanza</h3>
+                    <h3>Desafíos y aciertos de la gobernanza web3</h3>
                     <p>
                         Joxes, Cristina Meza, Manu, ccarella
                     </p>
@@ -321,7 +321,7 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Landscape actual de los NFTs</h3>
+                    <h3>Actualidad en el ecosistema NFT</h3>
                     <p>
                     Ahhsun mod | Gustavo Carvajal, StupidGiant HN, Renato Martinez, Juan de Guate
                     </p>
@@ -406,7 +406,7 @@ const Schedule = () => {
                   </div>
                   <div>
                     <p>Sala Workshops</p>
-                    <h3>ICP Workshop</h3>
+                    <h3>Cómo crear un smart contract con Internet Computer</h3>
                     <p>ICP</p>
                   </div>
                 </div>
@@ -434,7 +434,7 @@ const Schedule = () => {
                   </div>
                   <div>
                     <p>Sala Workshop</p>
-                    <h3>Metapool Workshop</h3>
+                    <h3>Desarrollo e integración de un LST en una dApp con Meta Pool</h3>
                     <p>Metapool</p>
                   </div>
                 </div>
@@ -464,7 +464,7 @@ const Schedule = () => {
                     </div>
                   <div>
                     <p>Sala Workshop</p>
-                    <h3>¿Los protocolos tienen el dinero para pagar los exploits?</h3>
+                    <h3>Estado de los Seguros DeFi 2024</h3>
                     <p>Blid One</p>
                   </div>
                 </div>
@@ -479,7 +479,7 @@ const Schedule = () => {
                     </div>
                   <div>
                     <p>Sala Workshop</p>
-                    <h3>Web3 Canvas</h3>
+                    <h3>Business Model Canvas Web3 </h3>
                     <p>Francis Sanchinelli</p>
                   </div>
                 </div>
@@ -510,7 +510,7 @@ const Schedule = () => {
                   </div>
                   <div>
                     <p>Sala Workshop</p>
-                    <h3>Crash Course en Solidity / OPCODES</h3>
+                    <h3>Solidity Crash Course: De Cero a Héroe en 60 minutos</h3>
                     <p>Lee Marreros</p>
                   </div>
                 </div>
@@ -551,7 +551,7 @@ const Schedule = () => {
                   <div>
                     <p>Sala Workshop</p>
                     <h3>Uncompromising web3 communication at scale with Waku</h3>
-                    <p>Waku</p>
+                    <p>Guru</p>
                   </div>
                   <div>
                     <p>Sala Workshop</p>
