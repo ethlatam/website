@@ -58,6 +58,7 @@ import qz from "../assets/speakersHN/QZ.png"
 import sam from '../assets/speakersHN/Sam.jpg'
 import simonethg from "../assets/speakersHN/simonethg.png"
 import skylar from '../assets/speakersHN/skylar.jpeg'
+import sofia from '../assets/speakersHN/sofia.png'
 import solange from '../assets/speakersHN/solange.png'
 import vee from "../assets/speakersHN/Vee.png"
 import vega from "../assets/speakersHN/vega.jpeg"
@@ -656,6 +657,23 @@ const Speakers = () => {
                 <Subtitile>
                   <Country src={brasil} />
                   <h2>Chanlink Labs</h2>
+                </Subtitile>
+              </div>
+            </Content>
+          </BoxItem>
+
+          <BoxItem className="importantPerson">
+            <Content
+              target="_blank"
+              href="https://twitter.com/sofi_act"
+              className="importantPersonContent"
+            >
+              <img style={{ objectPosition: '100% 50%' }} src={sofia} />
+              <div>
+                <h1>Sofia Alvarado</h1>
+                <Subtitile>
+                  <Country src={honduras} />
+                  <h2>Ethereum Tegucigalpa</h2>
                 </Subtitile>
               </div>
             </Content>
