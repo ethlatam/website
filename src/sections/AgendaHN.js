@@ -155,9 +155,9 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Conference</p>
-                    <h3> Superchain, Hyperchains, Orbit chains, Fractal Scaling, L3... ¿Qué? </h3>
+                    <h3>Ecosystem building 101: No you don’t actually want to do an ETH event</h3>
                     <p>
-                        Joxes
+                    QZ
                     </p>
                   </div>
                   <div>
@@ -174,9 +174,10 @@ const Schedule = () => {
                 <div className="twoColumns">
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Ecosystem building 101: No you don’t actually want to do an ETH event</h3>
+
+                    <h3> Superchain, Hyperchains, Orbit chains, Fractal Scaling, L3... ¿Qué? </h3>
                     <p>
-                    QZ
+                        Joxes
                     </p>
                   </div>
                   <div>
