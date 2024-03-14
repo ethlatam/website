@@ -450,7 +450,7 @@ const Schedule = () => {
                 <div >
                   <div>
                     <p>Sala Conference</p>
-                    <h3>Explorando el impacto de ZK y QuarkID en Latinoamérica</h3>
+                    <h3>Identidad Digital: cómo los gobiernos están cambiando el paradigma</h3>
                     <p>Mod: Chuy Cepeda | Alfonso Campenni (Gob. de Buenos Aires), Pablo Mosquella (Extrimian), Matthias Broner (zkSync)</p>
                   </div>
                 </div>
