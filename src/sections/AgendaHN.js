@@ -498,14 +498,11 @@ const Schedule = () => {
                 </div>
               </Entry>
               <Entry>
-                <Hours>12:30 - 13:00</Hours>
+                <Hours>12:30 - 12:40</Hours>
                 <div >
                   <div>
                   <p>Sala Conference</p>
-                    <h3>Token economics and data analytics: how to deal with tokenomics</h3>
-                    <p>
-                    Lisa Jy Tan
-                    </p>
+                    <h3>Qué es y cómo puedo participar en la ronda de financiamiento cuadrático de ETH LATAM</h3>
                   </div>
                 </div>
               </Entry>
